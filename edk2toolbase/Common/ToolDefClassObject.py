@@ -14,13 +14,13 @@ import re
 from . import EdkLogger
 
 from .BuildToolError import *
-from Common.TargetTxtClassObject import TargetTxtDict
-from Common.LongFilePathSupport import OpenLongFilePath as open
-from Common.Misc import PathClass
-from Common.StringUtils import NormPath
+from edk2toolbase.Common.TargetTxtClassObject import TargetTxtDict
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.Misc import PathClass
+from edk2toolbase.Common.StringUtils import NormPath
 import Common.GlobalData as GlobalData
 from Common import GlobalData
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 from .DataType import TAB_TOD_DEFINES_TARGET, TAB_TOD_DEFINES_TOOL_CHAIN_TAG,\
                      TAB_TOD_DEFINES_TARGET_ARCH, TAB_TOD_DEFINES_COMMAND_TYPE\
                      , TAB_TOD_DEFINES_FAMILY, TAB_TOD_DEFINES_BUILDRULEFAMILY,\

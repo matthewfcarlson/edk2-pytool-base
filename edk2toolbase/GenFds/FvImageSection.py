@@ -17,10 +17,10 @@ import subprocess
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
 import Common.LongFilePathOs as os
 from CommonDataClass.FdfClass import FvImageSectionClassObject
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 from Common import EdkLogger
-from Common.BuildToolError import *
-from Common.DataType import *
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.Common.DataType import *
 
 ## generate FV image section
 #

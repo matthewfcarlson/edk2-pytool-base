@@ -9,18 +9,18 @@
 # Import Modules
 #
 from __future__ import print_function
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 import re
 import copy
 import string
-from Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 
-from Common.GlobalData import *
-from Common.BuildToolError import *
-from Common.Misc import tdict, PathClass
-from Common.StringUtils import NormPath
-from Common.DataType import *
-from Common.TargetTxtClassObject import TargetTxtDict
+from edk2toolbase.Common.GlobalData import *
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.Common.Misc import tdict, PathClass
+from edk2toolbase.Common.StringUtils import NormPath
+from edk2toolbase.Common.DataType import *
+from edk2toolbase.Common.TargetTxtClassObject import TargetTxtDict
 gDefaultBuildRuleFile = 'build_rule.txt'
 AutoGenReqBuildRuleVerNum = '0.1'
 

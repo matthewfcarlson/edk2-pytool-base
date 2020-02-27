@@ -6,11 +6,11 @@
 #
 from __future__ import absolute_import
 from AutoGen.AutoGen import AutoGen
-from Common.LongFilePathSupport import LongFilePath, CopyLongFilePath
-from Common.BuildToolError import *
-from Common.DataType import *
-from Common.Misc import *
-from Common.StringUtils import NormPath,GetSplitList
+from edk2toolbase.Common.LongFilePathSupport import LongFilePath, CopyLongFilePath
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.Common.DataType import *
+from edk2toolbase.Common.Misc import *
+from edk2toolbase.Common.StringUtils import NormPath,GetSplitList
 from collections import defaultdict
 from Workspace.WorkspaceCommon import OrderedListDict
 import os.path as path
@@ -24,7 +24,7 @@ from io import BytesIO
 from GenPatchPcdTable.GenPatchPcdTable import parsePcdInfoFromMapFile
 from Workspace.MetaFileCommentParser import UsageList
 from .GenPcdDb import CreatePcdDatabaseCode
-from Common.caching import cached_class_function
+from edk2toolbase.Common.caching import cached_class_function
 from edk2toolbase.AutoGen.ModuleAutoGen Helper import PlatformInfo,WorkSpaceInfo
 import json
 import tempfile

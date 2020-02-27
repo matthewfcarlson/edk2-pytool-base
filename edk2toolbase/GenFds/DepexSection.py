@@ -16,9 +16,9 @@ import Common.LongFilePathOs as os
 from CommonDataClass.FdfClass import DepexSectionClassObject
 from AutoGen.GenDepex import DependencyExpression
 from Common import EdkLogger
-from Common.BuildToolError import *
-from Common.Misc import PathClass
-from Common.DataType import *
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.Common.Misc import PathClass
+from edk2toolbase.Common.DataType import *
 
 ## generate data section
 #

@@ -13,8 +13,8 @@ from Ecc.EccToolError import *
 from Ecc.MetaDataParser import ParseHeaderCommentSection
 from Ecc import EccGlobalData
 from Ecc import c
-from Common.LongFilePathSupport import OpenLongFilePath as open
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 
 ## Check
 #

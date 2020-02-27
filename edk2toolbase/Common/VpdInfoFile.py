@@ -16,9 +16,9 @@ import Common.EdkLogger as EdkLogger
 import Common.BuildToolError as BuildToolError
 import subprocess
 import Common.GlobalData as GlobalData
-from Common.LongFilePathSupport import OpenLongFilePath as open
-from Common.Misc import SaveFileOnChange
-from Common.DataType import *
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.Misc import SaveFileOnChange
+from edk2toolbase.Common.DataType import *
 
 FILE_COMMENT_TEMPLATE = \
 """

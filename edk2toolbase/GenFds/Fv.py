@@ -16,10 +16,10 @@ from io import BytesIO
 from struct import *
 from . import FfsFileStatement
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
-from Common.Misc import SaveFileOnChange, PackGUID
-from Common.LongFilePathSupport import CopyLongFilePath
-from Common.LongFilePathSupport import OpenLongFilePath as open
-from Common.DataType import *
+from edk2toolbase.Common.Misc import SaveFileOnChange, PackGUID
+from edk2toolbase.Common.LongFilePathSupport import CopyLongFilePath
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.DataType import *
 
 FV_UI_EXT_ENTY_GUID = 'A67DF1FA-8DE8-4E98-AF09-4BDF2EFFBC7C'
 

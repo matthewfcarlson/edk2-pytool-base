@@ -24,22 +24,22 @@ import threading
 from datetime import datetime
 from io import BytesIO
 from Common import EdkLogger
-from Common.Misc import SaveFileOnChange
-from Common.Misc import GuidStructureByteArrayToGuidString
-from Common.Misc import GuidStructureStringToGuidString
-from Common.BuildToolError import FILE_WRITE_FAILURE
-from Common.BuildToolError import CODE_ERROR
-from Common.BuildToolError import COMMAND_FAILURE
-from Common.BuildToolError import FORMAT_INVALID
-from Common.LongFilePathSupport import OpenLongFilePath as open
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.Misc import SaveFileOnChange
+from edk2toolbase.Common.Misc import GuidStructureByteArrayToGuidString
+from edk2toolbase.Common.Misc import GuidStructureStringToGuidString
+from edk2toolbase.Common.BuildToolError import FILE_WRITE_FAILURE
+from edk2toolbase.Common.BuildToolError import CODE_ERROR
+from edk2toolbase.Common.BuildToolError import COMMAND_FAILURE
+from edk2toolbase.Common.BuildToolError import FORMAT_INVALID
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 import Common.GlobalData as GlobalData
 from edk2toolbase.AutoGen.ModuleAutoGen  import ModuleAutoGen
-from Common.Misc import PathClass
-from Common.StringUtils import NormPath
-from Common.DataType import *
+from edk2toolbase.Common.Misc import PathClass
+from edk2toolbase.Common.StringUtils import NormPath
+from edk2toolbase.Common.DataType import *
 import collections
-from Common.Expression import *
+from edk2toolbase.Common.Expression import *
 from GenFds.AprioriSection import DXE_APRIORI_GUID, PEI_APRIORI_GUID
 
 ## Pattern to extract contents in EDK DXS files

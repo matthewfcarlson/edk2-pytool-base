@@ -45,7 +45,7 @@ from PomAdapter.InfPomAlignmentMisc import GenModuleHeaderUserExt
 from PomAdapter.InfPomAlignmentMisc import GenBinaryData
 from Parser import InfParser
 from PomAdapter.DecPomAlignment import DecPomAlignment
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 
 ## InfPomAlignment
 #

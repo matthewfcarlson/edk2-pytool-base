@@ -15,8 +15,8 @@ from . import RuleComplexFile
 from . import Section
 import Common.GlobalData as GlobalData
 
-from Common.DataType import *
-from Common.StringUtils import *
+from edk2toolbase.Common.DataType import *
+from edk2toolbase.Common.StringUtils import *
 from .FfsInfStatement import FfsInfStatement
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
 

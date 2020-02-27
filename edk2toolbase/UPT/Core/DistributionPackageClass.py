@@ -26,7 +26,7 @@ from Logger.ToolError import EDK1_INF_ERROR
 from Object.POM.CommonObject import IdentificationObject
 from Object.POM.CommonObject import CommonHeaderObject
 from Object.POM.CommonObject import MiscFileObject
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 
 ## DistributionPackageHeaderClass
 #

@@ -14,9 +14,9 @@ from optparse import OptionParser
 
 import Common.EdkLogger as EdkLogger
 import Common.BuildToolError as BuildToolError
-from Common.DataType import *
-from Common.BuildVersion import gBUILD_VERSION
-from Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.DataType import *
+from edk2toolbase.Common.BuildVersion import gBUILD_VERSION
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 
 # To Do 1.set clean, 2. add item, if the line is disabled.
 

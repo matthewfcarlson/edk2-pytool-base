@@ -19,11 +19,11 @@ from Ecc.Configuration import Configuration
 from Ecc.Check import Check
 import Common.GlobalData as GlobalData
 
-from Common.StringUtils import NormPath
-from Common.BuildVersion import gBUILD_VERSION
+from edk2toolbase.Common.StringUtils import NormPath
+from edk2toolbase.Common.BuildVersion import gBUILD_VERSION
 from Common import BuildToolError
-from Common.Misc import PathClass
-from Common.Misc import DirCache
+from edk2toolbase.Common.Misc import PathClass
+from edk2toolbase.Common.Misc import DirCache
 from Ecc.MetaFileWorkspace.MetaFileParser import DscParser
 from Ecc.MetaFileWorkspace.MetaFileParser import DecParser
 from Ecc.MetaFileWorkspace.MetaFileParser import InfParser
@@ -32,8 +32,8 @@ from Ecc.MetaFileWorkspace.MetaFileTable import MetaFileStorage
 from Ecc import c
 import re, string
 from Ecc.Exception import *
-from Common.LongFilePathSupport import OpenLongFilePath as open
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 
 ## Ecc
 #

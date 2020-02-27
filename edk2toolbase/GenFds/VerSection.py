@@ -14,8 +14,8 @@ from .Ffs import SectionSuffix
 import Common.LongFilePathOs as os
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
 from CommonDataClass.FdfClass import VerSectionClassObject
-from Common.LongFilePathSupport import OpenLongFilePath as open
-from Common.DataType import SUP_MODULE_SEC
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.DataType import SUP_MODULE_SEC
 
 ## generate version section
 #

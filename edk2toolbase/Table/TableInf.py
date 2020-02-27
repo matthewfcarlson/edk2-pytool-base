@@ -12,7 +12,7 @@ from __future__ import absolute_import
 import Common.EdkLogger as EdkLogger
 import CommonDataClass.DataClass as DataClass
 from Table.Table import Table
-from Common.StringUtils import ConvertToSqlString
+from edk2toolbase.Common.StringUtils import ConvertToSqlString
 
 ## TableInf
 #

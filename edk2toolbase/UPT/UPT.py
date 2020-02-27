@@ -39,7 +39,7 @@ from Logger.ToolError import FILE_TYPE_MISMATCH
 from Logger.ToolError import OPTION_CONFLICT
 from Logger.ToolError import FatalError
 from Logger.ToolError import UPT_ALREADY_INSTALLED_ERROR
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 
 import MkPkg
 import InstallPkg

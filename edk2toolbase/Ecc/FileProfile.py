@@ -14,7 +14,7 @@ from __future__ import absolute_import
 import re
 import Common.LongFilePathOs as os
 from Ecc.ParserWarning import Warning
-from Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 
 CommentList = []
 PPDirectiveList = []

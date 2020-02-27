@@ -20,16 +20,16 @@ from linecache import getlines
 from io import BytesIO
 
 import Common.LongFilePathOs as os
-from Common.TargetTxtClassObject import TargetTxtDict
-from Common.DataType import *
+from edk2toolbase.Common.TargetTxtClassObject import TargetTxtDict
+from edk2toolbase.Common.DataType import *
 import Common.GlobalData as GlobalData
 from Common import EdkLogger
-from Common.StringUtils import NormPath
-from Common.Misc import DirCache, PathClass, GuidStructureStringToGuidString
-from Common.Misc import SaveFileOnChange, ClearDuplicatedInf
-from Common.BuildVersion import gBUILD_VERSION
-from Common.MultipleWorkspace import MultipleWorkspace as mws
-from Common.BuildToolError import FatalError, GENFDS_ERROR, CODE_ERROR, FORMAT_INVALID, RESOURCE_NOT_AVAILABLE, FILE_NOT_FOUND, OPTION_MISSING, FORMAT_NOT_SUPPORTED, OPTION_VALUE_INVALID, PARAMETER_INVALID
+from edk2toolbase.Common.StringUtils import NormPath
+from edk2toolbase.Common.Misc import DirCache, PathClass, GuidStructureStringToGuidString
+from edk2toolbase.Common.Misc import SaveFileOnChange, ClearDuplicatedInf
+from edk2toolbase.Common.BuildVersion import gBUILD_VERSION
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.BuildToolError import FatalError, GENFDS_ERROR, CODE_ERROR, FORMAT_INVALID, RESOURCE_NOT_AVAILABLE, FILE_NOT_FOUND, OPTION_MISSING, FORMAT_NOT_SUPPORTED, OPTION_VALUE_INVALID, PARAMETER_INVALID
 from Workspace.WorkspaceDatabase import WorkspaceDatabase
 
 from .FdfParser import FdfParser, Warning

@@ -21,7 +21,7 @@ from Library.DataType import TAB_SPACE_SPLIT
 from Library.StringUtils import GetSplitValueList
 from Library.ExpressionValidate import IsValidBareCString
 from Library.ExpressionValidate import IsValidFeatureFlagExp
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 
 ## __HexDigit() method
 #

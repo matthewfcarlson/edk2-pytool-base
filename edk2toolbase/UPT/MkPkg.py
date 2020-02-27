@@ -44,7 +44,7 @@ from Library.ParserValidate import IsValidPath
 
 from Core.DistributionPackageClass import DistributionPackageClass
 from Core.PackageFile import PackageFile
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 
 ## CheckForExistingDp
 #

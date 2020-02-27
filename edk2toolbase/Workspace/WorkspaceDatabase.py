@@ -10,9 +10,9 @@
 # Import Modules
 #
 from __future__ import absolute_import
-from Common.StringUtils import *
-from Common.DataType import *
-from Common.Misc import *
+from edk2toolbase.Common.StringUtils import *
+from edk2toolbase.Common.DataType import *
+from edk2toolbase.Common.Misc import *
 from types import *
 
 from .MetaDataTable import *

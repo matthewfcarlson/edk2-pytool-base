@@ -16,9 +16,9 @@ import subprocess
 from .Ffs import SectionSuffix
 import Common.LongFilePathOs as os
 from CommonDataClass.FdfClass import DataSectionClassObject
-from Common.Misc import PeImageClass
-from Common.LongFilePathSupport import CopyLongFilePath
-from Common.DataType import *
+from edk2toolbase.Common.Misc import PeImageClass
+from edk2toolbase.Common.LongFilePathSupport import CopyLongFilePath
+from edk2toolbase.Common.DataType import *
 
 ## generate data section
 #

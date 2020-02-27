@@ -15,12 +15,12 @@ from io import BytesIO
 import codecs
 from optparse import OptionParser
 from optparse import make_option
-from Common.BuildToolError import *
-from Common.Misc import *
-from Common.DataType import *
-from Common.BuildVersion import gBUILD_VERSION
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.Common.Misc import *
+from edk2toolbase.Common.DataType import *
+from edk2toolbase.Common.BuildVersion import gBUILD_VERSION
 import Common.EdkLogger as EdkLogger
-from Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 
 # Version and Copyright
 __version_number__ = ("0.10" + " " + gBUILD_VERSION)

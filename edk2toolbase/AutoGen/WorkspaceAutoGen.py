@@ -18,11 +18,11 @@ from AutoGen import GenMake
 from AutoGen.AutoGen import AutoGen
 from AutoGen.PlatformAutoGen import PlatformAutoGen
 from AutoGen.BuildEngine import gDefaultBuildRuleFile
-from Common.ToolDefClassObject import gDefaultToolsDefFile
-from Common.StringUtils import NormPath
-from Common.BuildToolError import *
-from Common.DataType import *
-from Common.Misc import *
+from edk2toolbase.Common.ToolDefClassObject import gDefaultToolsDefFile
+from edk2toolbase.Common.StringUtils import NormPath
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.Common.DataType import *
+from edk2toolbase.Common.Misc import *
 import json
 
 ## Regular expression for splitting Dependency Expression string into tokens

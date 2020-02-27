@@ -20,10 +20,10 @@ from .GenFdsGlobalVariable import FindExtendTool
 from CommonDataClass.FdfClass import GuidSectionClassObject
 import sys
 from Common import EdkLogger
-from Common.BuildToolError import *
+from edk2toolbase.Common.BuildToolError import *
 from .FvImageSection import FvImageSection
-from Common.LongFilePathSupport import OpenLongFilePath as open
-from Common.DataType import *
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.DataType import *
 
 ## generate GUIDed section
 #

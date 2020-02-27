@@ -31,7 +31,7 @@ from Logger import StringTable as ST
 from Library.Misc import CreateDirectory
 from Library.Misc import RemoveDirectory
 from Core.FileHook import __FileHookOpen__
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 
 
 class PackageFile:

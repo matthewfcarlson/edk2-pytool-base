@@ -6,16 +6,16 @@
 #
 from __future__ import absolute_import
 from io import BytesIO
-from Common.Misc import *
-from Common.StringUtils import StringToArray
+from edk2toolbase.Common.Misc import *
+from edk2toolbase.Common.StringUtils import StringToArray
 from struct import pack
 from .ValidCheckingInfoObject import VAR_CHECK_PCD_VARIABLE_TAB_CONTAINER
 from .ValidCheckingInfoObject import VAR_CHECK_PCD_VARIABLE_TAB
 from .ValidCheckingInfoObject import GetValidationObject
-from Common.VariableAttributes import VariableAttributes
+from edk2toolbase.Common.VariableAttributes import VariableAttributes
 import copy
 from struct import unpack
-from Common.DataType import *
+from edk2toolbase.Common.DataType import *
 from Common import GlobalData
 from Common import EdkLogger
 import Common.LongFilePathOs as os

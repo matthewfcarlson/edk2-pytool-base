@@ -13,28 +13,28 @@
 #
 from __future__ import print_function
 from __future__ import absolute_import
-from Common.StringUtils import *
-from Common.DataType import *
-from Common.Misc import *
+from edk2toolbase.Common.StringUtils import *
+from edk2toolbase.Common.DataType import *
+from edk2toolbase.Common.Misc import *
 from types import *
-from Common.Expression import *
+from edk2toolbase.Common.Expression import *
 from CommonDataClass.CommonClass import SkuInfoClass
-from Common.TargetTxtClassObject import TargetTxtDict
-from Common.ToolDefClassObject import ToolDefDict
+from edk2toolbase.Common.TargetTxtClassObject import TargetTxtDict
+from edk2toolbase.Common.ToolDefClassObject import ToolDefDict
 from .MetaDataTable import *
 from .MetaFileTable import *
 from .MetaFileParser import *
 
 from .WorkspaceCommon import GetDeclaredPcd
-from Common.Misc import AnalyzeDscPcd
-from Common.Misc import ProcessDuplicatedInf,RemoveCComments,ArrayIndex
+from edk2toolbase.Common.Misc import AnalyzeDscPcd
+from edk2toolbase.Common.Misc import ProcessDuplicatedInf,RemoveCComments,ArrayIndex
 import re
-from Common.Parsing import IsValidWord
-from Common.VariableAttributes import VariableAttributes
+from edk2toolbase.Common.Parsing import IsValidWord
+from edk2toolbase.Common.VariableAttributes import VariableAttributes
 import Common.GlobalData as GlobalData
 import subprocess
 from functools import reduce
-from Common.Misc import SaveFileOnChange
+from edk2toolbase.Common.Misc import SaveFileOnChange
 from Workspace.BuildClassObject import PlatformBuildClassObject, StructurePcd, PcdClassObject, ModuleBuildClassObject
 from collections import OrderedDict, defaultdict
 

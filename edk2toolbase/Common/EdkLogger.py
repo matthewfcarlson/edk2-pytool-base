@@ -24,9 +24,9 @@
 
 ## Import modules
 from __future__ import absolute_import
-import Common.LongFilePathOs as os, sys, logging
+import edk2toolbase.Common.LongFilePathOs as os, sys, logging
 import traceback
-from  .BuildToolError import *
+from  edk2toolbase.Common.BuildToolError import *
 try:
     from logging.handlers import QueueHandler
 except:

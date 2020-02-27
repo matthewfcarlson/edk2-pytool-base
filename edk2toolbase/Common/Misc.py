@@ -26,19 +26,19 @@ import subprocess
 import tempfile
 from collections import OrderedDict
 
-import Common.LongFilePathOs as os
-from Common import EdkLogger as EdkLogger
-from Common import GlobalData as GlobalData
-from Common.DataType import *
-from Common.BuildToolError import *
-from CommonDataClass.DataClass import *
-from Common.Parsing import GetSplitValueList
-from Common.LongFilePathSupport import OpenLongFilePath as open
-from Common.LongFilePathSupport import CopyLongFilePath as CopyLong
-from Common.LongFilePathSupport import LongFilePath as LongFilePath
-from Common.MultipleWorkspace import MultipleWorkspace as mws
-from CommonDataClass.Exceptions import BadExpression
-from Common.caching import cached_property
+import edk2toolbase.Common.LongFilePathOs as os
+from edk2toolbase.Common import EdkLogger as EdkLogger
+from edk2toolbase.Common import GlobalData as GlobalData
+from edk2toolbase.Common.DataType import *
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.CommonDataClass.DataClass import *
+from edk2toolbase.Common.Parsing import GetSplitValueList
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.LongFilePathSupport import CopyLongFilePath as CopyLong
+from edk2toolbase.Common.LongFilePathSupport import LongFilePath as LongFilePath
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.CommonDataClass.Exceptions import BadExpression
+from edk2toolbase.Common.caching import cached_property
 
 ArrayIndex = re.compile("\[\s*[0-9a-fA-FxX]*\s*\]")
 ## Regular expression used to find out place holders in string template

@@ -14,8 +14,8 @@ from io import BytesIO
 from struct import pack
 from CommonDataClass.FdfClass import FileStatementClassObject
 from Common import EdkLogger
-from Common.BuildToolError import GENFDS_ERROR
-from Common.Misc import GuidStructureByteArrayToGuidString, SaveFileOnChange
+from edk2toolbase.Common.BuildToolError import GENFDS_ERROR
+from edk2toolbase.Common.Misc import GuidStructureByteArrayToGuidString, SaveFileOnChange
 import Common.LongFilePathOs as os
 from .GuidSection import GuidSection
 from .FvImageSection import FvImageSection

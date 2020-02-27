@@ -14,12 +14,12 @@ from .GenFdsGlobalVariable import GenFdsGlobalVariable, FindExtendTool
 from CommonDataClass.FdfClass import CapsuleClassObject
 import Common.LongFilePathOs as os
 from io import BytesIO
-from Common.Misc import SaveFileOnChange, PackGUID
+from edk2toolbase.Common.Misc import SaveFileOnChange, PackGUID
 import uuid
 from struct import pack
 from Common import EdkLogger
-from Common.BuildToolError import GENFDS_ERROR
-from Common.DataType import TAB_LINE_BREAK
+from edk2toolbase.Common.BuildToolError import GENFDS_ERROR
+from edk2toolbase.Common.DataType import TAB_LINE_BREAK
 
 WIN_CERT_REVISION = 0x0200
 WIN_CERT_TYPE_EFI_GUID = 0x0EF1

@@ -9,7 +9,7 @@
 #
 
 import Common.LongFilePathOs as os
-from Common.DataType import TAB_WORKSPACE
+from edk2toolbase.Common.DataType import TAB_WORKSPACE
 
 ## MultipleWorkspace
 #

@@ -19,9 +19,9 @@ from struct import *
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
 from CommonDataClass.FdfClass import FDClassObject
 from Common import EdkLogger
-from Common.BuildToolError import *
-from Common.Misc import SaveFileOnChange
-from Common.DataType import BINARY_FILE_TYPE_FV
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.Common.Misc import SaveFileOnChange
+from edk2toolbase.Common.DataType import BINARY_FILE_TYPE_FV
 
 ## generate FD
 #

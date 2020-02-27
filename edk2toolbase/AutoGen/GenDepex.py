@@ -10,17 +10,17 @@ import sys
 import Common.LongFilePathOs as os
 import re
 import traceback
-from Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 from io import BytesIO
 from struct import pack
-from Common.BuildToolError import *
-from Common.Misc import SaveFileOnChange
-from Common.Misc import GuidStructureStringToGuidString
-from Common.Misc import GuidStructureByteArrayToGuidString
-from Common.Misc import GuidStringToGuidStructureString
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.Common.Misc import SaveFileOnChange
+from edk2toolbase.Common.Misc import GuidStructureStringToGuidString
+from edk2toolbase.Common.Misc import GuidStructureByteArrayToGuidString
+from edk2toolbase.Common.Misc import GuidStringToGuidStructureString
 from Common import EdkLogger as EdkLogger
-from Common.BuildVersion import gBUILD_VERSION
-from Common.DataType import *
+from edk2toolbase.Common.BuildVersion import gBUILD_VERSION
+from edk2toolbase.Common.DataType import *
 
 ## Regular expression for matching "DEPENDENCY_START ... DEPENDENCY_END"
 gStartClosePattern = re.compile(".*DEPENDENCY_START(.+)DEPENDENCY_END.*", re.S)

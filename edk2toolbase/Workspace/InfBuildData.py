@@ -7,9 +7,9 @@
 #
 
 from __future__ import absolute_import
-from Common.DataType import *
-from Common.Misc import *
-from Common.caching import cached_property, cached_class_function
+from edk2toolbase.Common.DataType import *
+from edk2toolbase.Common.Misc import *
+from edk2toolbase.Common.caching import cached_property, cached_class_function
 from types import *
 from .MetaFileParser import *
 from collections import OrderedDict

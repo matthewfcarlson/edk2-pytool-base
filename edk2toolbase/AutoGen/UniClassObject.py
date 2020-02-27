@@ -15,11 +15,11 @@ import Common.LongFilePathOs as os, codecs, re
 import distutils.util
 import Common.EdkLogger as EdkLogger
 from io import BytesIO
-from Common.BuildToolError import *
-from Common.StringUtils import GetLineNo
-from Common.Misc import PathClass
-from Common.LongFilePathSupport import LongFilePath
-from Common.GlobalData import *
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.Common.StringUtils import GetLineNo
+from edk2toolbase.Common.Misc import PathClass
+from edk2toolbase.Common.LongFilePathSupport import LongFilePath
+from edk2toolbase.Common.GlobalData import *
 ##
 # Static definitions
 #

@@ -16,9 +16,9 @@ import subprocess
 from . import OptRomInfStatement
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
 from CommonDataClass.FdfClass import OptionRomClassObject
-from Common.Misc import SaveFileOnChange
+from edk2toolbase.Common.Misc import SaveFileOnChange
 from Common import EdkLogger
-from Common.BuildToolError import *
+from edk2toolbase.Common.BuildToolError import *
 
 ##
 #

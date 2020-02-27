@@ -23,28 +23,28 @@ from . import Section
 from . import RuleSimpleFile
 from . import RuleComplexFile
 from CommonDataClass.FdfClass import FfsInfStatementClassObject
-from Common.MultipleWorkspace import MultipleWorkspace as mws
-from Common.DataType import SUP_MODULE_USER_DEFINED
-from Common.DataType import SUP_MODULE_HOST_APPLICATION
-from Common.StringUtils import *
-from Common.Misc import PathClass
-from Common.Misc import GuidStructureByteArrayToGuidString
-from Common.Misc import ProcessDuplicatedInf
-from Common.Misc import GetVariableOffset
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.DataType import SUP_MODULE_USER_DEFINED
+from edk2toolbase.Common.DataType import SUP_MODULE_HOST_APPLICATION
+from edk2toolbase.Common.StringUtils import *
+from edk2toolbase.Common.Misc import PathClass
+from edk2toolbase.Common.Misc import GuidStructureByteArrayToGuidString
+from edk2toolbase.Common.Misc import ProcessDuplicatedInf
+from edk2toolbase.Common.Misc import GetVariableOffset
 from Common import EdkLogger
-from Common.BuildToolError import *
+from edk2toolbase.Common.BuildToolError import *
 from .GuidSection import GuidSection
 from .FvImageSection import FvImageSection
-from Common.Misc import PeImageClass
+from edk2toolbase.Common.Misc import PeImageClass
 from AutoGen.GenDepex import DependencyExpression
 from PatchPcdValue.PatchPcdValue import PatchBinaryFile
-from Common.LongFilePathSupport import CopyLongFilePath
-from Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.LongFilePathSupport import CopyLongFilePath
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 import Common.GlobalData as GlobalData
 from .DepexSection import DepexSection
-from Common.Misc import SaveFileOnChange
-from Common.Expression import *
-from Common.DataType import *
+from edk2toolbase.Common.Misc import SaveFileOnChange
+from edk2toolbase.Common.Expression import *
+from edk2toolbase.Common.DataType import *
 
 ## generate FFS from INF
 #

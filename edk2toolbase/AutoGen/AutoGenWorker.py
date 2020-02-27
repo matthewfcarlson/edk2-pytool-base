@@ -7,13 +7,13 @@
 from __future__ import absolute_import
 import multiprocessing as mp
 import threading
-from Common.Misc import PathClass
+from edk2toolbase.Common.Misc import PathClass
 from edk2toolbase.AutoGen.ModuleAutoGen  import ModuleAutoGen
 from edk2toolbase.AutoGen.ModuleAutoGen Helper import WorkSpaceInfo,AutoGenInfo
 import Common.GlobalData as GlobalData
 import Common.EdkLogger as EdkLogger
 import os
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 from AutoGen.AutoGen import AutoGen
 from Workspace.WorkspaceDatabase import BuildDB
 try:

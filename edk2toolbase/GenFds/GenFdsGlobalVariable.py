@@ -19,17 +19,17 @@ from subprocess import PIPE,Popen
 from struct import Struct
 from array import array
 
-from Common.BuildToolError import COMMAND_FAILURE,GENFDS_ERROR
+from edk2toolbase.Common.BuildToolError import COMMAND_FAILURE,GENFDS_ERROR
 from Common import EdkLogger
-from Common.Misc import SaveFileOnChange
+from edk2toolbase.Common.Misc import SaveFileOnChange
 
-from Common.TargetTxtClassObject import TargetTxtDict
-from Common.ToolDefClassObject import ToolDefDict
+from edk2toolbase.Common.TargetTxtClassObject import TargetTxtDict
+from edk2toolbase.Common.ToolDefClassObject import ToolDefDict
 from AutoGen.BuildEngine import ToolBuildRule
 import Common.DataType as DataType
-from Common.Misc import PathClass
-from Common.LongFilePathSupport import OpenLongFilePath as open
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.Misc import PathClass
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 import Common.GlobalData as GlobalData
 
 ## Global variables

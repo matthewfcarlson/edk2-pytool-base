@@ -13,7 +13,7 @@ from CommonDataClass.DataClass import (
     MODEL_EFI_PPI,
     MODEL_EFI_PROTOCOL
 )
-from Common.BuildToolError import FORMAT_INVALID
+from edk2toolbase.Common.BuildToolError import FORMAT_INVALID
 import Common.EdkLogger as EdkLogger
 
 UsageList = ("PRODUCES", "PRODUCED", "ALWAYS_PRODUCES", "ALWAYS_PRODUCED", "SOMETIMES_PRODUCES",

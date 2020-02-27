@@ -13,9 +13,9 @@ from io import BytesIO
 from . import StringTable as st
 import array
 import re
-from Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 from struct import *
-from Common.DataType import MAX_SIZE_TYPE, MAX_VAL_TYPE, TAB_STAR
+from edk2toolbase.Common.DataType import MAX_SIZE_TYPE, MAX_VAL_TYPE, TAB_STAR
 import Common.EdkLogger as EdkLogger
 import Common.BuildToolError as BuildToolError
 

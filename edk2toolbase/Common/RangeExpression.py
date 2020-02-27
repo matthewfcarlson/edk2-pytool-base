@@ -7,12 +7,12 @@
 # # Import Modules
 #
 from __future__ import print_function
-from Common.GlobalData import *
+from edk2toolbase.Common.GlobalData import *
 from CommonDataClass.Exceptions import BadExpression
 from CommonDataClass.Exceptions import WrnExpression
 import uuid
-from Common.Expression import PcdPattern, BaseExpression
-from Common.DataType import *
+from edk2toolbase.Common.Expression import PcdPattern, BaseExpression
+from edk2toolbase.Common.DataType import *
 from re import compile
 
 ERR_STRING_EXPR = 'This operator cannot be used in string expression: [%s].'

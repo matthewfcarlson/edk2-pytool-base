@@ -13,20 +13,20 @@ import Common.LongFilePathOs as os, time, glob
 import Common.EdkLogger as EdkLogger
 import Eot.EotGlobalData as EotGlobalData
 from optparse import OptionParser
-from Common.StringUtils import NormPath
+from edk2toolbase.Common.StringUtils import NormPath
 from Common import BuildToolError
-from Common.Misc import GuidStructureStringToGuidString
+from edk2toolbase.Common.Misc import GuidStructureStringToGuidString
 from collections import OrderedDict as sdict
 from Eot.Parser import *
 from Eot.InfParserLite import EdkInfParser
-from Common.StringUtils import GetSplitValueList
+from edk2toolbase.Common.StringUtils import GetSplitValueList
 from Eot import c
 from Eot import Database
 from array import array
 from Eot.Report import Report
-from Common.BuildVersion import gBUILD_VERSION
+from edk2toolbase.Common.BuildVersion import gBUILD_VERSION
 from Eot.Parser import ConvertGuid
-from Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 import struct
 import uuid
 import copy

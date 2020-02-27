@@ -5,12 +5,12 @@
 # Copyright (c) 2020, ARM Limited. All rights reserved.<BR>
 # SPDX-License-Identifier: BSD-2-Clause-Patent
 #
-from Common.caching import cached_property
+from edk2toolbase.Common.caching import cached_property
 import Common.EdkLogger as EdkLogger
 import Common.LongFilePathOs as os
-from Common.BuildToolError import *
-from Common.Misc import SaveFileOnChange, PathClass
-from Common.Misc import TemplateString
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.Common.Misc import SaveFileOnChange, PathClass
+from edk2toolbase.Common.Misc import TemplateString
 import sys
 gIsFileMap = {}
 

@@ -20,16 +20,16 @@ import Ecc.EccGlobalData as EccGlobalData
 import Ecc.EccToolError as EccToolError
 
 from CommonDataClass.DataClass import *
-from Common.DataType import *
-from Common.StringUtils import *
-from Common.Misc import GuidStructureStringToGuidString, CheckPcdDatum, PathClass, AnalyzePcdData
-from Common.Expression import *
+from edk2toolbase.Common.DataType import *
+from edk2toolbase.Common.StringUtils import *
+from edk2toolbase.Common.Misc import GuidStructureStringToGuidString, CheckPcdDatum, PathClass, AnalyzePcdData
+from edk2toolbase.Common.Expression import *
 from CommonDataClass.Exceptions import *
 
 from Ecc.MetaFileWorkspace.MetaFileTable import MetaFileStorage
 from GenFds.FdfParser import FdfParser
-from Common.LongFilePathSupport import OpenLongFilePath as open
-from Common.LongFilePathSupport import CodecOpenLongFilePath
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.LongFilePathSupport import CodecOpenLongFilePath
 
 ## A decorator used to parse macro definition
 def ParseMacro(Parser):

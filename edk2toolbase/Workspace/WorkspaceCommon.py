@@ -7,14 +7,14 @@
 
 from __future__ import absolute_import
 from collections import OrderedDict, defaultdict
-from Common.DataType import SUP_MODULE_USER_DEFINED
-from Common.DataType import SUP_MODULE_HOST_APPLICATION
+from edk2toolbase.Common.DataType import SUP_MODULE_USER_DEFINED
+from edk2toolbase.Common.DataType import SUP_MODULE_HOST_APPLICATION
 from .BuildClassObject import LibraryClassObject
 import Common.GlobalData as GlobalData
 from Workspace.BuildClassObject import StructurePcd
-from Common.BuildToolError import RESOURCE_NOT_AVAILABLE
-from Common.BuildToolError import OPTION_MISSING
-from Common.BuildToolError import BUILD_ERROR
+from edk2toolbase.Common.BuildToolError import RESOURCE_NOT_AVAILABLE
+from edk2toolbase.Common.BuildToolError import OPTION_MISSING
+from edk2toolbase.Common.BuildToolError import BUILD_ERROR
 import Common.EdkLogger as EdkLogger
 
 class OrderedListDict(OrderedDict):

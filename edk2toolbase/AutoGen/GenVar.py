@@ -11,8 +11,8 @@
 from struct import pack, unpack
 import collections
 import copy
-from Common.VariableAttributes import VariableAttributes
-from Common.Misc import *
+from edk2toolbase.Common.VariableAttributes import VariableAttributes
+from edk2toolbase.Common.Misc import *
 import collections
 import Common.DataType as DataType
 

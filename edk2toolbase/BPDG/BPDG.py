@@ -22,8 +22,8 @@ import encodings.ascii
 
 from optparse import OptionParser
 from Common import EdkLogger
-from Common.BuildToolError import *
-from Common.BuildVersion import gBUILD_VERSION
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.Common.BuildVersion import gBUILD_VERSION
 
 from . import StringTable as st
 from . import GenVpd

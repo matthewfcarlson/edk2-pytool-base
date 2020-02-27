@@ -9,13 +9,13 @@
 #
 from __future__ import absolute_import
 import Common.EdkLogger as EdkLogger
-from Common.BuildToolError import *
-from Common.StringUtils import GetLineNo
-from Common.Misc import PathClass
-from Common.LongFilePathSupport import LongFilePath
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.Common.StringUtils import GetLineNo
+from edk2toolbase.Common.Misc import PathClass
+from edk2toolbase.Common.LongFilePathSupport import LongFilePath
 import re
 import os
-from Common.GlobalData import gIdentifierPattern
+from edk2toolbase.Common.GlobalData import gIdentifierPattern
 from .UniClassObject import StripComments
 
 IMAGE_TOKEN = re.compile('IMAGE_TOKEN *\(([A-Z0-9_]+) *\)', re.MULTILINE | re.UNICODE)

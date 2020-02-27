@@ -6,15 +6,15 @@
 #
 
 from collections import OrderedDict, namedtuple
-from Common.DataType import *
+from edk2toolbase.Common.DataType import *
 import collections
 import re
 from collections import OrderedDict
-from Common.Misc import CopyDict,ArrayIndex
+from edk2toolbase.Common.Misc import CopyDict,ArrayIndex
 import copy
 import Common.EdkLogger as EdkLogger
-from Common.BuildToolError import OPTION_VALUE_INVALID
-from Common.caching import cached_property
+from edk2toolbase.Common.BuildToolError import OPTION_VALUE_INVALID
+from edk2toolbase.Common.caching import cached_property
 StructPattern = re.compile(r'[_a-zA-Z][0-9A-Za-z_\[\]]*$')
 
 ## PcdClassObject

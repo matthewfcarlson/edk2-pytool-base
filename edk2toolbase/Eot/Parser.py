@@ -12,12 +12,12 @@
 from __future__ import absolute_import
 import Common.LongFilePathOs as os, re
 import Common.EdkLogger as EdkLogger
-from Common.DataType import *
+from edk2toolbase.Common.DataType import *
 from CommonDataClass.DataClass import *
-from Common.StringUtils import CleanString, GetSplitValueList, ReplaceMacro
+from edk2toolbase.Common.StringUtils import CleanString, GetSplitValueList, ReplaceMacro
 from . import EotGlobalData
-from Common.StringUtils import GetSplitList
-from Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.StringUtils import GetSplitList
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 
 import subprocess
 

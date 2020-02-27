@@ -14,8 +14,8 @@ from CommonDataClass.FdfClass import SectionClassObject
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
 import Common.LongFilePathOs as os, glob
 from Common import EdkLogger
-from Common.BuildToolError import *
-from Common.DataType import *
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.Common.DataType import *
 
 ## section base class
 #

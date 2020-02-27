@@ -44,7 +44,7 @@ from Library.ParserValidate import IsValidHexVersion
 from Library.ParserValidate import IsValidPath
 from Object.POM.CommonObject import TextObject
 from Core.FileHook import __FileHookOpen__
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 
 ## Convert GUID string in xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx style to C
 # structure style

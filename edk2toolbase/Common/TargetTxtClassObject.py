@@ -17,8 +17,8 @@ from . import EdkLogger
 from . import DataType
 from .BuildToolError import *
 
-from Common.LongFilePathSupport import OpenLongFilePath as open
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 
 gDefaultTargetTxtFile = "target.txt"
 

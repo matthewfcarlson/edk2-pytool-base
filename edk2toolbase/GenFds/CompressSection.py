@@ -16,7 +16,7 @@ import subprocess
 import Common.LongFilePathOs as os
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
 from CommonDataClass.FdfClass import CompressSectionClassObject
-from Common.DataType import *
+from edk2toolbase.Common.DataType import *
 
 ## generate compress section
 #

@@ -11,9 +11,9 @@
 from __future__ import print_function
 import Common.LongFilePathOs as os
 import Common.EdkLogger as EdkLogger
-from Common.DataType import *
-from Common.StringUtils import *
-from Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.DataType import *
+from edk2toolbase.Common.StringUtils import *
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 
 _ConfigFileToInternalTranslation = {
     # not same

@@ -23,12 +23,12 @@ from AutoGen.AutoGen import AutoGen
 from AutoGen.AutoGen import CalculatePriorityValue
 from Workspace.WorkspaceCommon import GetModuleLibInstances
 from CommonDataClass.CommonClass import SkuInfoClass
-from Common.caching import cached_class_function
-from Common.Expression import ValueExpressionEx
-from Common.StringUtils import StringToArray,NormPath
-from Common.BuildToolError import *
-from Common.DataType import *
-from Common.Misc import *
+from edk2toolbase.Common.caching import cached_class_function
+from edk2toolbase.Common.Expression import ValueExpressionEx
+from edk2toolbase.Common.StringUtils import StringToArray,NormPath
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.Common.DataType import *
+from edk2toolbase.Common.Misc import *
 import Common.VpdInfoFile as VpdInfoFile
 
 ## Split command line option string to list

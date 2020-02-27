@@ -11,7 +11,7 @@
 from __future__ import absolute_import
 import Common.LongFilePathOs as os
 from . import EotGlobalData
-from Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 
 ## Report() class
 #
