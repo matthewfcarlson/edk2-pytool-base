@@ -11,23 +11,19 @@ import setuptools
 from setuptools.command.sdist import sdist
 from setuptools.command.install import install
 from setuptools.command.develop import develop
-from edk2toollib.windows.locate_tools import _DownloadVsWhere
 
 with open("readme.md", "r") as fh:
     long_description = fh.read()
-
 
 class PostSdistCommand(sdist):
     """Post-sdist."""
     def run(self):
         sdist.run(self)
 
-
 class PostInstallCommand(install):
     """Post-install."""
     def run(self):
         install.run(self)
-
 
 class PostDevCommand(develop):
     """Post-develop."""
