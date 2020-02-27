@@ -29,7 +29,8 @@ from subprocess import Popen,PIPE, STDOUT
 from collections import OrderedDict, defaultdict
 
 from AutoGen.PlatformAutoGen import PlatformAutoGen
-from AutoGen.ModuleAutoGen import ModuleAutoGen
+from edk2toolbase.AutoGen.ModuleAutoGen  import ModuleAutoGen
+from edk2toolbase.AutoGen.ModuleAutoGen import ModuleAutoGen
 from AutoGen.WorkspaceAutoGen import WorkspaceAutoGen
 from AutoGen.AutoGenWorker import AutoGenWorkerInProcess,AutoGenManager,\
     LogAgent
@@ -57,7 +58,7 @@ from GenFds.GenFds import GenFds, GenFdsApi
 import multiprocessing as mp
 from multiprocessing import Manager
 from AutoGen.DataPipe import MemoryDataPipe
-from AutoGen.ModuleAutoGenHelper import WorkSpaceInfo, PlatformInfo
+from edk2toolbase.AutoGen.ModuleAutoGen Helper import WorkSpaceInfo, PlatformInfo
 from GenFds.FdfParser import FdfParser
 from AutoGen.IncludesAutoGen import IncludesAutoGen
 from GenFds.GenFds import resetFdsGlobalVariable

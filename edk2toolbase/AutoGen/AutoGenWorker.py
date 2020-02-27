@@ -8,8 +8,8 @@ from __future__ import absolute_import
 import multiprocessing as mp
 import threading
 from Common.Misc import PathClass
-from AutoGen.ModuleAutoGen import ModuleAutoGen
-from AutoGen.ModuleAutoGenHelper import WorkSpaceInfo,AutoGenInfo
+from edk2toolbase.AutoGen.ModuleAutoGen  import ModuleAutoGen
+from edk2toolbase.AutoGen.ModuleAutoGen Helper import WorkSpaceInfo,AutoGenInfo
 import Common.GlobalData as GlobalData
 import Common.EdkLogger as EdkLogger
 import os

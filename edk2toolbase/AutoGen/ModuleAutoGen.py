@@ -25,7 +25,7 @@ from GenPatchPcdTable.GenPatchPcdTable import parsePcdInfoFromMapFile
 from Workspace.MetaFileCommentParser import UsageList
 from .GenPcdDb import CreatePcdDatabaseCode
 from Common.caching import cached_class_function
-from AutoGen.ModuleAutoGenHelper import PlatformInfo,WorkSpaceInfo
+from edk2toolbase.AutoGen.ModuleAutoGen Helper import PlatformInfo,WorkSpaceInfo
 import json
 import tempfile
 

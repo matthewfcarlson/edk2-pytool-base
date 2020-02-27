@@ -48,6 +48,9 @@ setuptools.setup(
     include_package_data=True,
     use_scm_version=True,
     setup_requires=['setuptools_scm'],
+    entry_points={
+        'console_scripts': ['edk2_build=edk2toolbase.build.build:Main']
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: BSD License",

@@ -18,7 +18,7 @@ from .BuildEngine import BuildRule,gDefaultBuildRuleFile,AutoGenReqBuildRuleVerN
 from .GenVar import VariableMgr, var_info
 from . import GenMake
 from AutoGen.DataPipe import MemoryDataPipe
-from AutoGen.ModuleAutoGen import ModuleAutoGen
+from edk2toolbase.AutoGen.ModuleAutoGen  import ModuleAutoGen
 from AutoGen.AutoGen import AutoGen
 from AutoGen.AutoGen import CalculatePriorityValue
 from Workspace.WorkspaceCommon import GetModuleLibInstances
