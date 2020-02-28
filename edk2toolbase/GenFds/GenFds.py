@@ -19,23 +19,23 @@ from struct import unpack
 from linecache import getlines
 from io import BytesIO
 
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 from edk2toolbase.Common.TargetTxtClassObject import TargetTxtDict
 from edk2toolbase.Common.DataType import *
-import Common.GlobalData as GlobalData
-from Common import EdkLogger
+import edk2toolbase.Common.GlobalData as GlobalData
+from edk2toolbase.Common import EdkLogger
 from edk2toolbase.Common.StringUtils import NormPath
 from edk2toolbase.Common.Misc import DirCache, PathClass, GuidStructureStringToGuidString
 from edk2toolbase.Common.Misc import SaveFileOnChange, ClearDuplicatedInf
 from edk2toolbase.Common.BuildVersion import gBUILD_VERSION
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 from edk2toolbase.Common.BuildToolError import FatalError, GENFDS_ERROR, CODE_ERROR, FORMAT_INVALID, RESOURCE_NOT_AVAILABLE, FILE_NOT_FOUND, OPTION_MISSING, FORMAT_NOT_SUPPORTED, OPTION_VALUE_INVALID, PARAMETER_INVALID
-from Workspace.WorkspaceDatabase import WorkspaceDatabase
+from edk2toolbase.Workspace.WorkspaceDatabase import WorkspaceDatabase
 
 from .FdfParser import FdfParser, Warning
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
 from .FfsFileStatement import FileStatement
-import Common.DataType as DataType
+import edk2toolbase.Common.DataType as DataType
 from struct import Struct
 
 ## Version and Copyright

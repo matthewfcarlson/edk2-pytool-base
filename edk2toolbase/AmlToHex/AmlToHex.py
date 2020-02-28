@@ -12,7 +12,7 @@
 #
 
 import argparse
-import Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.EdkLogger as EdkLogger
 from edk2toolbase.Common.BuildToolError import *
 import sys
 import os

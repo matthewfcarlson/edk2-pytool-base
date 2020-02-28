@@ -11,21 +11,21 @@
 #
 from __future__ import print_function
 from __future__ import absolute_import
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 import re
 import time
 import copy
 from hashlib import md5
 
-import Common.EdkLogger as EdkLogger
-import Common.GlobalData as GlobalData
+import edk2toolbase.Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.GlobalData as GlobalData
 
-from CommonDataClass.DataClass import *
+from edk2toolbase.CommonDataClass.DataClass import *
 from edk2toolbase.Common.DataType import *
 from edk2toolbase.Common.StringUtils import *
 from edk2toolbase.Common.Misc import GuidStructureStringToGuidString, CheckPcdDatum, PathClass, AnalyzePcdData, AnalyzeDscPcd, AnalyzePcdExpression, ParseFieldValue, StructPattern
 from edk2toolbase.Common.Expression import *
-from CommonDataClass.Exceptions import *
+from edk2toolbase.CommonDataClass.Exceptions import *
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 from collections import defaultdict
 from .MetaFileTable import MetaFileStorage

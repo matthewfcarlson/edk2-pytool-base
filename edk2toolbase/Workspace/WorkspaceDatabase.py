@@ -19,9 +19,9 @@ from .MetaDataTable import *
 from .MetaFileTable import *
 from .MetaFileParser import *
 
-from Workspace.DecBuildData import DecBuildData
-from Workspace.DscBuildData import DscBuildData
-from Workspace.InfBuildData import InfBuildData
+from edk2toolbase.Workspace.DecBuildData import DecBuildData
+from edk2toolbase.Workspace.DscBuildData import DscBuildData
+from edk2toolbase.Workspace.InfBuildData import InfBuildData
 
 ## Database
 #

@@ -37,7 +37,7 @@ from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 from edk2toolbase.Common.LongFilePathSupport import CopyLongFilePath as CopyLong
 from edk2toolbase.Common.LongFilePathSupport import LongFilePath as LongFilePath
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
-from edk2toolbase.Common.CommonDataClass.Exceptions import BadExpression
+from edk2toolbase.CommonDataClass.Exceptions import BadExpression
 from edk2toolbase.Common.caching import cached_property
 
 ArrayIndex = re.compile("\[\s*[0-9a-fA-FxX]*\s*\]")

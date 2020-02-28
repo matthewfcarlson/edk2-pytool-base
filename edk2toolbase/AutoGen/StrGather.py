@@ -10,7 +10,7 @@
 #
 from __future__ import absolute_import
 import re
-import Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.EdkLogger as EdkLogger
 from edk2toolbase.Common.BuildToolError import *
 from .UniClassObject import *
 from io import BytesIO

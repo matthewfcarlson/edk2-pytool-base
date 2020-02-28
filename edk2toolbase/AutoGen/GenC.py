@@ -11,15 +11,15 @@ from __future__ import absolute_import
 import string
 import collections
 import struct
-from Common import EdkLogger
-from Common import GlobalData
+from edk2toolbase.Common import EdkLogger
+from edk2toolbase.Common import GlobalData
 from edk2toolbase.Common.BuildToolError import *
 from edk2toolbase.Common.DataType import *
 from edk2toolbase.Common.Misc import *
 from edk2toolbase.Common.StringUtils import StringToArray
-from .StrGather import *
-from .GenPcdDb import CreatePcdDatabaseCode
-from .IdfClassObject import *
+from edk2toolbase.AutoGen.StrGather import *
+from edk2toolbase.AutoGen.GenPcdDb import CreatePcdDatabaseCode
+from edk2toolbase.AutoGen.IdfClassObject import *
 
 ## PCD type string
 gItemTypeStringDatabase  = {

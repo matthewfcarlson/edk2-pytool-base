@@ -10,12 +10,12 @@ from collections import OrderedDict, defaultdict
 from edk2toolbase.Common.DataType import SUP_MODULE_USER_DEFINED
 from edk2toolbase.Common.DataType import SUP_MODULE_HOST_APPLICATION
 from .BuildClassObject import LibraryClassObject
-import Common.GlobalData as GlobalData
-from Workspace.BuildClassObject import StructurePcd
+import edk2toolbase.Common.GlobalData as GlobalData
+from edk2toolbase.Workspace.BuildClassObject import StructurePcd
 from edk2toolbase.Common.BuildToolError import RESOURCE_NOT_AVAILABLE
 from edk2toolbase.Common.BuildToolError import OPTION_MISSING
 from edk2toolbase.Common.BuildToolError import BUILD_ERROR
-import Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.EdkLogger as EdkLogger
 
 class OrderedListDict(OrderedDict):
     def __init__(self, *args, **kwargs):

@@ -12,7 +12,7 @@
 #
 from __future__ import absolute_import
 from . import Rule
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 from io import BytesIO
 from struct import *
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
@@ -22,7 +22,7 @@ import sys
 from . import Section
 from . import RuleSimpleFile
 from . import RuleComplexFile
-from CommonDataClass.FdfClass import FfsInfStatementClassObject
+from edk2toolbase.CommonDataClass.FdfClass import FfsInfStatementClassObject
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 from edk2toolbase.Common.DataType import SUP_MODULE_USER_DEFINED
 from edk2toolbase.Common.DataType import SUP_MODULE_HOST_APPLICATION
@@ -31,16 +31,16 @@ from edk2toolbase.Common.Misc import PathClass
 from edk2toolbase.Common.Misc import GuidStructureByteArrayToGuidString
 from edk2toolbase.Common.Misc import ProcessDuplicatedInf
 from edk2toolbase.Common.Misc import GetVariableOffset
-from Common import EdkLogger
+from edk2toolbase.Common import EdkLogger
 from edk2toolbase.Common.BuildToolError import *
 from .GuidSection import GuidSection
 from .FvImageSection import FvImageSection
 from edk2toolbase.Common.Misc import PeImageClass
-from AutoGen.GenDepex import DependencyExpression
-from PatchPcdValue.PatchPcdValue import PatchBinaryFile
+from edk2toolbase.AutoGen.GenDepex import DependencyExpression
+from edk2toolbase.PatchPcdValue.PatchPcdValue import PatchBinaryFile
 from edk2toolbase.Common.LongFilePathSupport import CopyLongFilePath
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
-import Common.GlobalData as GlobalData
+import edk2toolbase.Common.GlobalData as GlobalData
 from .DepexSection import DepexSection
 from edk2toolbase.Common.Misc import SaveFileOnChange
 from edk2toolbase.Common.Expression import *

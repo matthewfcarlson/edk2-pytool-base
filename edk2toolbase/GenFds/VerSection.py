@@ -11,9 +11,9 @@
 #
 from __future__ import absolute_import
 from .Ffs import SectionSuffix
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
-from CommonDataClass.FdfClass import VerSectionClassObject
+from edk2toolbase.CommonDataClass.FdfClass import VerSectionClassObject
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 from edk2toolbase.Common.DataType import SUP_MODULE_SEC
 

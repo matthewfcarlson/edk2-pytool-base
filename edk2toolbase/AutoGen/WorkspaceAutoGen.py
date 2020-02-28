@@ -12,12 +12,12 @@ from __future__ import absolute_import
 import os.path as path
 import hashlib
 from collections import defaultdict
-from GenFds.FdfParser import FdfParser
-from Workspace.WorkspaceCommon import GetModuleLibInstances
-from AutoGen import GenMake
-from AutoGen.AutoGen import AutoGen
-from AutoGen.PlatformAutoGen import PlatformAutoGen
-from AutoGen.BuildEngine import gDefaultBuildRuleFile
+from edk2toolbase.GenFds.FdfParser import FdfParser
+from edk2toolbase.Workspace.WorkspaceCommon import GetModuleLibInstances
+from edk2toolbase.AutoGen import GenMake
+from edk2toolbase.AutoGen.AutoGen import AutoGen
+from edk2toolbase.AutoGen.PlatformAutoGen import PlatformAutoGen
+from edk2toolbase.AutoGen.BuildEngine import gDefaultBuildRuleFile
 from edk2toolbase.Common.ToolDefClassObject import gDefaultToolsDefFile
 from edk2toolbase.Common.StringUtils import NormPath
 from edk2toolbase.Common.BuildToolError import *

@@ -13,9 +13,9 @@ from __future__ import absolute_import
 from . import Section
 from .Ffs import SectionSuffix
 import subprocess
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
-from CommonDataClass.FdfClass import UiSectionClassObject
+from edk2toolbase.CommonDataClass.FdfClass import UiSectionClassObject
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 from edk2toolbase.Common.DataType import *
 

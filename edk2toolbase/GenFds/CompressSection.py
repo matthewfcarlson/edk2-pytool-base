@@ -13,9 +13,9 @@ from __future__ import absolute_import
 from .Ffs import SectionSuffix
 from . import Section
 import subprocess
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
-from CommonDataClass.FdfClass import CompressSectionClassObject
+from edk2toolbase.CommonDataClass.FdfClass import CompressSectionClassObject
 from edk2toolbase.Common.DataType import *
 
 ## generate compress section

@@ -11,10 +11,10 @@
 from __future__ import absolute_import
 import uuid
 
-import Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.EdkLogger as EdkLogger
 from edk2toolbase.Common.BuildToolError import FORMAT_INVALID
 
-from CommonDataClass.DataClass import MODEL_FILE_DSC, MODEL_FILE_DEC, MODEL_FILE_INF, \
+from edk2toolbase.CommonDataClass.DataClass import MODEL_FILE_DSC, MODEL_FILE_DEC, MODEL_FILE_INF, \
                                       MODEL_FILE_OTHERS
 from edk2toolbase.Common.DataType import *
 

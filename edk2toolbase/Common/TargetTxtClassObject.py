@@ -11,8 +11,8 @@
 from __future__ import print_function
 from __future__ import absolute_import
 
-import Common.GlobalData as GlobalData
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.GlobalData as GlobalData
+import edk2toolbase.Common.LongFilePathOs as os
 from . import EdkLogger
 from . import DataType
 from .BuildToolError import *

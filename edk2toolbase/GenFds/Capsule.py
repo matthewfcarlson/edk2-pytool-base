@@ -11,13 +11,13 @@
 #
 from __future__ import absolute_import
 from .GenFdsGlobalVariable import GenFdsGlobalVariable, FindExtendTool
-from CommonDataClass.FdfClass import CapsuleClassObject
-import Common.LongFilePathOs as os
+from edk2toolbase.CommonDataClass.FdfClass import CapsuleClassObject
+import edk2toolbase.Common.LongFilePathOs as os
 from io import BytesIO
 from edk2toolbase.Common.Misc import SaveFileOnChange, PackGUID
 import uuid
 from struct import pack
-from Common import EdkLogger
+from edk2toolbase.Common import EdkLogger
 from edk2toolbase.Common.BuildToolError import GENFDS_ERROR
 from edk2toolbase.Common.DataType import TAB_LINE_BREAK
 

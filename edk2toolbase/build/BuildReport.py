@@ -10,7 +10,7 @@
 
 ## Import Modules
 #
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 import re
 import platform
 import textwrap
@@ -23,7 +23,7 @@ import subprocess
 import threading
 from datetime import datetime
 from io import BytesIO
-from Common import EdkLogger
+from edk2toolbase.Common import EdkLogger
 from edk2toolbase.Common.Misc import SaveFileOnChange
 from edk2toolbase.Common.Misc import GuidStructureByteArrayToGuidString
 from edk2toolbase.Common.Misc import GuidStructureStringToGuidString
@@ -33,14 +33,14 @@ from edk2toolbase.Common.BuildToolError import COMMAND_FAILURE
 from edk2toolbase.Common.BuildToolError import FORMAT_INVALID
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
-import Common.GlobalData as GlobalData
+import edk2toolbase.Common.GlobalData as GlobalData
 from edk2toolbase.AutoGen.ModuleAutoGen  import ModuleAutoGen
 from edk2toolbase.Common.Misc import PathClass
 from edk2toolbase.Common.StringUtils import NormPath
 from edk2toolbase.Common.DataType import *
 import collections
 from edk2toolbase.Common.Expression import *
-from GenFds.AprioriSection import DXE_APRIORI_GUID, PEI_APRIORI_GUID
+from edk2toolbase.GenFds.AprioriSection import DXE_APRIORI_GUID, PEI_APRIORI_GUID
 
 ## Pattern to extract contents in EDK DXS files
 gDxsDependencyPattern = re.compile(r"DEPENDENCY_START(.+)DEPENDENCY_END", re.DOTALL)

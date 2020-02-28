@@ -14,8 +14,8 @@ from . import Section
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
 import subprocess
 from .Ffs import SectionSuffix
-import Common.LongFilePathOs as os
-from CommonDataClass.FdfClass import DataSectionClassObject
+import edk2toolbase.Common.LongFilePathOs as os
+from edk2toolbase.CommonDataClass.FdfClass import DataSectionClassObject
 from edk2toolbase.Common.Misc import PeImageClass
 from edk2toolbase.Common.LongFilePathSupport import CopyLongFilePath
 from edk2toolbase.Common.DataType import *

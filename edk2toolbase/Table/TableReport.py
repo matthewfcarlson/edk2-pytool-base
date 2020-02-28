@@ -9,8 +9,8 @@
 # Import Modules
 #
 from __future__ import absolute_import
-import Common.EdkLogger as EdkLogger
-import Common.LongFilePathOs as os, time
+import edk2toolbase.Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.LongFilePathOs as os, time
 from Table.Table import Table
 from edk2toolbase.Common.StringUtils import ConvertToSqlString2
 import Ecc.EccToolError as EccToolError

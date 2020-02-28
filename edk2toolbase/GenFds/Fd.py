@@ -12,13 +12,13 @@
 from __future__ import absolute_import
 from . import Region
 from . import Fv
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 from io import BytesIO
 import sys
 from struct import *
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
-from CommonDataClass.FdfClass import FDClassObject
-from Common import EdkLogger
+from edk2toolbase.CommonDataClass.FdfClass import FDClassObject
+from edk2toolbase.Common import EdkLogger
 from edk2toolbase.Common.BuildToolError import *
 from edk2toolbase.Common.Misc import SaveFileOnChange
 from edk2toolbase.Common.DataType import BINARY_FILE_TYPE_FV

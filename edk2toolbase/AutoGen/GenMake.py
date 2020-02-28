@@ -9,7 +9,7 @@
 ## Import Modules
 #
 from __future__ import absolute_import
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 import sys
 import string
 import re
@@ -20,7 +20,7 @@ from edk2toolbase.Common.BuildToolError import *
 from edk2toolbase.Common.Misc import *
 from edk2toolbase.Common.StringUtils import *
 from .BuildEngine import *
-import Common.GlobalData as GlobalData
+import edk2toolbase.Common.GlobalData as GlobalData
 from collections import OrderedDict
 from edk2toolbase.Common.DataType import TAB_COMPILER_MSFT
 

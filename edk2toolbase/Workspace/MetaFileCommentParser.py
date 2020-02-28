@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: BSD-2-Clause-Patent
 #
 
-from CommonDataClass.DataClass import (
+from edk2toolbase.CommonDataClass.DataClass import (
     MODEL_PCD_PATCHABLE_IN_MODULE,
     MODEL_PCD_DYNAMIC_EX,
     MODEL_PCD_DYNAMIC,
@@ -14,7 +14,7 @@ from CommonDataClass.DataClass import (
     MODEL_EFI_PROTOCOL
 )
 from edk2toolbase.Common.BuildToolError import FORMAT_INVALID
-import Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.EdkLogger as EdkLogger
 
 UsageList = ("PRODUCES", "PRODUCED", "ALWAYS_PRODUCES", "ALWAYS_PRODUCED", "SOMETIMES_PRODUCES",
              "SOMETIMES_PRODUCED", "CONSUMES", "CONSUMED", "ALWAYS_CONSUMES", "ALWAYS_CONSUMED",

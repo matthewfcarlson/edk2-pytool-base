@@ -9,20 +9,20 @@ import multiprocessing as mp
 import threading
 from edk2toolbase.Common.Misc import PathClass
 from edk2toolbase.AutoGen.ModuleAutoGen  import ModuleAutoGen
-from edk2toolbase.AutoGen.ModuleAutoGen Helper import WorkSpaceInfo,AutoGenInfo
-import Common.GlobalData as GlobalData
-import Common.EdkLogger as EdkLogger
+from edk2toolbase.AutoGen.ModuleAutoGenHelper import WorkSpaceInfo,AutoGenInfo
+import edk2toolbase.Common.GlobalData as GlobalData
+import edk2toolbase.Common.EdkLogger as EdkLogger
 import os
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
-from AutoGen.AutoGen import AutoGen
-from Workspace.WorkspaceDatabase import BuildDB
+from edk2toolbase.AutoGen.AutoGen import AutoGen
+from edk2toolbase.Workspace.WorkspaceDatabase import BuildDB
 try:
     from queue import Empty
 except:
     from Queue import Empty
 import traceback
 import sys
-from AutoGen.DataPipe import MemoryDataPipe
+from edk2toolbase.AutoGen.DataPipe import MemoryDataPipe
 import logging
 
 def clearQ(q):

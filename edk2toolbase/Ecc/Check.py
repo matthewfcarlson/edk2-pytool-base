@@ -5,10 +5,10 @@
 # SPDX-License-Identifier: BSD-2-Clause-Patent
 #
 from __future__ import absolute_import
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 import re
-from CommonDataClass.DataClass import *
-import Common.DataType as DT
+from edk2toolbase.CommonDataClass.DataClass import *
+import edk2toolbase.Common.DataType as DT
 from Ecc.EccToolError import *
 from Ecc.MetaDataParser import ParseHeaderCommentSection
 from Ecc import EccGlobalData

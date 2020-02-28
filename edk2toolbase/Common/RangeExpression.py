@@ -8,8 +8,8 @@
 #
 from __future__ import print_function
 from edk2toolbase.Common.GlobalData import *
-from CommonDataClass.Exceptions import BadExpression
-from CommonDataClass.Exceptions import WrnExpression
+from edk2toolbase.CommonDataClass.Exceptions import BadExpression
+from edk2toolbase.CommonDataClass.Exceptions import WrnExpression
 import uuid
 from edk2toolbase.Common.Expression import PcdPattern, BaseExpression
 from edk2toolbase.Common.DataType import *

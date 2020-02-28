@@ -10,8 +10,8 @@ from edk2toolbase.Common.DataType import *
 from edk2toolbase.Common.Misc import *
 from types import *
 from collections import OrderedDict
-from CommonDataClass.DataClass import *
-from Workspace.BuildClassObject import PackageBuildClassObject, StructurePcd, PcdClassObject
+from edk2toolbase.CommonDataClass.DataClass import *
+from edk2toolbase.Workspace.BuildClassObject import PackageBuildClassObject, StructurePcd, PcdClassObject
 from edk2toolbase.Common.GlobalData import gGlobalDefines
 from re import compile
 

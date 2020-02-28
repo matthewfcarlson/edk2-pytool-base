@@ -13,7 +13,7 @@ from __future__ import absolute_import
 from . import RuleSimpleFile
 from . import RuleComplexFile
 from . import Section
-import Common.GlobalData as GlobalData
+import edk2toolbase.Common.GlobalData as GlobalData
 
 from edk2toolbase.Common.DataType import *
 from edk2toolbase.Common.StringUtils import *

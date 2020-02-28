@@ -14,7 +14,7 @@ import copy
 from edk2toolbase.Common.VariableAttributes import VariableAttributes
 from edk2toolbase.Common.Misc import *
 import collections
-import Common.DataType as DataType
+import edk2toolbase.Common.DataType as DataType
 
 var_info = collections.namedtuple("uefi_var", "pcdindex,pcdname,defaultstoragename,skuname,var_name, var_guid, var_offset,var_attribute,pcd_default_value, default_value, data_type,PcdDscLine,StructurePcd")
 NvStorageHeaderSize = 28

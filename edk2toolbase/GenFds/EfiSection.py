@@ -15,9 +15,9 @@ from . import Section
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
 import subprocess
 from .Ffs import SectionSuffix
-import Common.LongFilePathOs as os
-from CommonDataClass.FdfClass import EfiSectionClassObject
-from Common import EdkLogger
+import edk2toolbase.Common.LongFilePathOs as os
+from edk2toolbase.CommonDataClass.FdfClass import EfiSectionClassObject
+from edk2toolbase.Common import EdkLogger
 from edk2toolbase.Common.BuildToolError import *
 from edk2toolbase.Common.Misc import PeImageClass
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open

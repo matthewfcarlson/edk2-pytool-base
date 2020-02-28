@@ -11,7 +11,7 @@
 #
 from __future__ import absolute_import
 from struct import pack
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 from io import BytesIO
 from .FfsFileStatement import FileStatement
 from .GenFdsGlobalVariable import GenFdsGlobalVariable

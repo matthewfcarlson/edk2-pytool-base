@@ -9,12 +9,12 @@
 # Import Modules
 #
 from __future__ import absolute_import
-import Common.LongFilePathOs as os, time, glob
-import Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.LongFilePathOs as os, time, glob
+import edk2toolbase.Common.EdkLogger as EdkLogger
 import Eot.EotGlobalData as EotGlobalData
 from optparse import OptionParser
 from edk2toolbase.Common.StringUtils import NormPath
-from Common import BuildToolError
+from edk2toolbase.Common import BuildToolError
 from edk2toolbase.Common.Misc import GuidStructureStringToGuidString
 from collections import OrderedDict as sdict
 from Eot.Parser import *

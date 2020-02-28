@@ -13,7 +13,7 @@ from edk2toolbase.Common.caching import cached_property, cached_class_function
 from types import *
 from .MetaFileParser import *
 from collections import OrderedDict
-from Workspace.BuildClassObject import ModuleBuildClassObject, LibraryClassObject, PcdClassObject
+from edk2toolbase.Workspace.BuildClassObject import ModuleBuildClassObject, LibraryClassObject, PcdClassObject
 
 ## Get Protocol value from given packages
 #

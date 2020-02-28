@@ -18,7 +18,7 @@ from edk2toolbase.Common.DataType import *
 from edk2toolbase.Common.Misc import *
 from types import *
 from edk2toolbase.Common.Expression import *
-from CommonDataClass.CommonClass import SkuInfoClass
+from edk2toolbase.CommonDataClass.CommonClass import SkuInfoClass
 from edk2toolbase.Common.TargetTxtClassObject import TargetTxtDict
 from edk2toolbase.Common.ToolDefClassObject import ToolDefDict
 from .MetaDataTable import *
@@ -31,11 +31,11 @@ from edk2toolbase.Common.Misc import ProcessDuplicatedInf,RemoveCComments,ArrayI
 import re
 from edk2toolbase.Common.Parsing import IsValidWord
 from edk2toolbase.Common.VariableAttributes import VariableAttributes
-import Common.GlobalData as GlobalData
+import edk2toolbase.Common.GlobalData as GlobalData
 import subprocess
 from functools import reduce
 from edk2toolbase.Common.Misc import SaveFileOnChange
-from Workspace.BuildClassObject import PlatformBuildClassObject, StructurePcd, PcdClassObject, ModuleBuildClassObject
+from edk2toolbase.Workspace.BuildClassObject import PlatformBuildClassObject, StructurePcd, PcdClassObject, ModuleBuildClassObject
 from collections import OrderedDict, defaultdict
 
 def _IsFieldValueAnArray (Value):
@@ -111,7 +111,7 @@ SkuIdPattern = re.compile(r'^[a-zA-Z_][a-zA-Z0-9_]*$')
 Pattern = re.compile('^[1-9]\d*|0$')
 HexPattern = re.compile(r'0[xX][0-9a-fA-F]+$')
 ## Regular expression for finding header file inclusions
-from AutoGen.GenMake import gIncludePattern
+from edk2toolbase.AutoGen.GenMake import gIncludePattern
 
 ## Find dependencies for one source file
 #

@@ -15,10 +15,10 @@ from io import BytesIO
 from .Ffs import SectionSuffix
 import subprocess
 from .GenFdsGlobalVariable import GenFdsGlobalVariable
-import Common.LongFilePathOs as os
-from CommonDataClass.FdfClass import FvImageSectionClassObject
+import edk2toolbase.Common.LongFilePathOs as os
+from edk2toolbase.CommonDataClass.FdfClass import FvImageSectionClassObject
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
-from Common import EdkLogger
+from edk2toolbase.Common import EdkLogger
 from edk2toolbase.Common.BuildToolError import *
 from edk2toolbase.Common.DataType import *
 

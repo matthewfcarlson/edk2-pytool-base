@@ -17,14 +17,14 @@ from string import hexdigits
 from uuid import UUID
 
 from edk2toolbase.Common.BuildToolError import *
-from Common import EdkLogger
+from edk2toolbase.Common import EdkLogger
 from edk2toolbase.Common.Misc import PathClass, tdict, ProcessDuplicatedInf
 from edk2toolbase.Common.StringUtils import NormPath, ReplaceMacro
-from Common import GlobalData
+from edk2toolbase.Common import GlobalData
 from edk2toolbase.Common.Expression import *
 from edk2toolbase.Common.DataType import *
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 from edk2toolbase.Common.RangeExpression import RangeExpression
 from collections import OrderedDict

@@ -24,7 +24,7 @@ from edk2toolbase.Common.TargetTxtClassObject import TargetTxtDict
 gDefaultBuildRuleFile = 'build_rule.txt'
 AutoGenReqBuildRuleVerNum = '0.1'
 
-import Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.EdkLogger as EdkLogger
 
 ## Convert file type to file list macro name
 #

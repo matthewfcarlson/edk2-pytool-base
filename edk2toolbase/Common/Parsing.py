@@ -9,9 +9,9 @@
 # Import Modules
 #
 from __future__ import absolute_import
-from .StringUtils import *
-from CommonDataClass.DataClass import *
-from .DataType import *
+from edk2toolbase.Common.StringUtils import *
+from edk2toolbase.CommonDataClass.DataClass import *
+from edk2toolbase.Common.DataType import *
 
 ## ParseDefineMacro
 #

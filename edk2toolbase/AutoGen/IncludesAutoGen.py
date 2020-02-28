@@ -6,8 +6,8 @@
 # SPDX-License-Identifier: BSD-2-Clause-Patent
 #
 from edk2toolbase.Common.caching import cached_property
-import Common.EdkLogger as EdkLogger
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.LongFilePathOs as os
 from edk2toolbase.Common.BuildToolError import *
 from edk2toolbase.Common.Misc import SaveFileOnChange, PathClass
 from edk2toolbase.Common.Misc import TemplateString

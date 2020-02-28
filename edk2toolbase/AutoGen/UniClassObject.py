@@ -11,9 +11,9 @@
 # Import Modules
 #
 from __future__ import print_function
-import Common.LongFilePathOs as os, codecs, re
+import edk2toolbase.Common.LongFilePathOs as os, codecs, re
 import distutils.util
-import Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.EdkLogger as EdkLogger
 from io import BytesIO
 from edk2toolbase.Common.BuildToolError import *
 from edk2toolbase.Common.StringUtils import GetLineNo

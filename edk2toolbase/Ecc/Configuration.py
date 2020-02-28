@@ -9,8 +9,8 @@
 # Import Modules
 #
 from __future__ import print_function
-import Common.LongFilePathOs as os
-import Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.LongFilePathOs as os
+import edk2toolbase.Common.EdkLogger as EdkLogger
 from edk2toolbase.Common.DataType import *
 from edk2toolbase.Common.StringUtils import *
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open

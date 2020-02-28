@@ -8,7 +8,7 @@
 # SPDX-License-Identifier: BSD-2-Clause-Patent
 #
 
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 from edk2toolbase.Common.DataType import TAB_WORKSPACE
 
 ## MultipleWorkspace

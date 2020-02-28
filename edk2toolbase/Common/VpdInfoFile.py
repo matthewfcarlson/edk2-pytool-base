@@ -10,12 +10,12 @@
 # SPDX-License-Identifier: BSD-2-Clause-Patent
 #
 from __future__ import print_function
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 import re
-import Common.EdkLogger as EdkLogger
-import Common.BuildToolError as BuildToolError
+import edk2toolbase.Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.BuildToolError as BuildToolError
 import subprocess
-import Common.GlobalData as GlobalData
+import edk2toolbase.Common.GlobalData as GlobalData
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 from edk2toolbase.Common.Misc import SaveFileOnChange
 from edk2toolbase.Common.DataType import *

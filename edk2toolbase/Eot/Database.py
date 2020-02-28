@@ -9,9 +9,9 @@
 # Import Modules
 #
 import sqlite3
-import Common.LongFilePathOs as os, time
+import edk2toolbase.Common.LongFilePathOs as os, time
 
-import Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.EdkLogger as EdkLogger
 import CommonDataClass.DataClass as DataClass
 
 from Table.TableDataModel import TableDataModel

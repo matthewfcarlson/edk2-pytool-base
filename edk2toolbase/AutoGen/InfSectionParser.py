@@ -8,7 +8,7 @@
 ## Import Modules
 #
 
-import Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.EdkLogger as EdkLogger
 from edk2toolbase.Common.BuildToolError import *
 from edk2toolbase.Common.DataType import *
 

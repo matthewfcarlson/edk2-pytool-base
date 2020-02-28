@@ -9,19 +9,19 @@
 # Import Modules
 #
 from __future__ import absolute_import
-import Common.LongFilePathOs as os, time, glob, sys
-import Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.LongFilePathOs as os, time, glob, sys
+import edk2toolbase.Common.EdkLogger as EdkLogger
 from Ecc import Database
 from Ecc import EccGlobalData
 from Ecc.MetaDataParser import *
 from optparse import OptionParser
 from Ecc.Configuration import Configuration
 from Ecc.Check import Check
-import Common.GlobalData as GlobalData
+import edk2toolbase.Common.GlobalData as GlobalData
 
 from edk2toolbase.Common.StringUtils import NormPath
 from edk2toolbase.Common.BuildVersion import gBUILD_VERSION
-from Common import BuildToolError
+from edk2toolbase.Common import BuildToolError
 from edk2toolbase.Common.Misc import PathClass
 from edk2toolbase.Common.Misc import DirCache
 from Ecc.MetaFileWorkspace.MetaFileParser import DscParser

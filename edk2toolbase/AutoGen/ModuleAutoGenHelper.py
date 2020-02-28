@@ -5,16 +5,16 @@
 # SPDX-License-Identifier: BSD-2-Clause-Patent
 #
 from __future__ import absolute_import
-from Workspace.WorkspaceDatabase import WorkspaceDatabase,BuildDB
+from edk2toolbase.Workspace.WorkspaceDatabase import WorkspaceDatabase,BuildDB
 from edk2toolbase.Common.caching import cached_property
-from AutoGen.BuildEngine import BuildRule,AutoGenReqBuildRuleVerNum
-from AutoGen.AutoGen import CalculatePriorityValue
+from edk2toolbase.AutoGen.BuildEngine import BuildRule,AutoGenReqBuildRuleVerNum
+from edk2toolbase.AutoGen.AutoGen import CalculatePriorityValue
 from edk2toolbase.Common.Misc import CheckPcdDatum,GuidValue
 from edk2toolbase.Common.Expression import ValueExpressionEx
 from edk2toolbase.Common.DataType import *
-from CommonDataClass.Exceptions import *
-from CommonDataClass.CommonClass import SkuInfoClass
-import Common.EdkLogger as EdkLogger
+from edk2toolbase.CommonDataClass.Exceptions import *
+from edk2toolbase.CommonDataClass.CommonClass import SkuInfoClass
+import edk2toolbase.Common.EdkLogger as EdkLogger
 from edk2toolbase.Common.BuildToolError import OPTION_CONFLICT,FORMAT_INVALID,RESOURCE_NOT_AVAILABLE
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 from collections import defaultdict

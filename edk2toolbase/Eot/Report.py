@@ -9,7 +9,7 @@
 # Import Modules
 #
 from __future__ import absolute_import
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 from . import EotGlobalData
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 

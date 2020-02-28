@@ -9,19 +9,19 @@
 # Import Modules
 #
 from __future__ import absolute_import
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 import re
-from . import EdkLogger
+from edk2toolbase.Common import EdkLogger
 
-from .BuildToolError import *
+from edk2toolbase.Common.BuildToolError import *
 from edk2toolbase.Common.TargetTxtClassObject import TargetTxtDict
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 from edk2toolbase.Common.Misc import PathClass
 from edk2toolbase.Common.StringUtils import NormPath
-import Common.GlobalData as GlobalData
-from Common import GlobalData
+import edk2toolbase.Common.GlobalData as GlobalData
+from edk2toolbase.Common import GlobalData
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
-from .DataType import TAB_TOD_DEFINES_TARGET, TAB_TOD_DEFINES_TOOL_CHAIN_TAG,\
+from edk2toolbase.Common.DataType import TAB_TOD_DEFINES_TARGET, TAB_TOD_DEFINES_TOOL_CHAIN_TAG,\
                      TAB_TOD_DEFINES_TARGET_ARCH, TAB_TOD_DEFINES_COMMAND_TYPE\
                      , TAB_TOD_DEFINES_FAMILY, TAB_TOD_DEFINES_BUILDRULEFAMILY,\
                      TAB_STAR, TAB_TAT_DEFINES_TOOL_CHAIN_CONF

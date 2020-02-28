@@ -56,7 +56,7 @@ from edk2toolbase.GenFds.GenFds import GenFds, GenFdsApi
 import multiprocessing as mp
 from multiprocessing import Manager
 from edk2toolbase.AutoGen.DataPipe import MemoryDataPipe
-from edk2toolbase.AutoGen.ModuleAutoGen.Helper import WorkSpaceInfo, PlatformInfo
+from edk2toolbase.AutoGen.ModuleAutoGenHelper import WorkSpaceInfo, PlatformInfo
 from edk2toolbase.GenFds.FdfParser import FdfParser
 from edk2toolbase.AutoGen.IncludesAutoGen import IncludesAutoGen
 from edk2toolbase.GenFds.GenFds import resetFdsGlobalVariable

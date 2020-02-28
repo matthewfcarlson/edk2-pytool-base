@@ -12,7 +12,7 @@ import re
 from collections import OrderedDict
 from edk2toolbase.Common.Misc import CopyDict,ArrayIndex
 import copy
-import Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.EdkLogger as EdkLogger
 from edk2toolbase.Common.BuildToolError import OPTION_VALUE_INVALID
 from edk2toolbase.Common.caching import cached_property
 StructPattern = re.compile(r'[_a-zA-Z][0-9A-Za-z_\[\]]*$')

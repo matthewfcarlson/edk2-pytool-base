@@ -9,22 +9,22 @@
 # Import Modules
 #
 from __future__ import absolute_import
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 import re
 import time
 import copy
 from hashlib import md5
-import Common.EdkLogger as EdkLogger
-import Common.GlobalData as GlobalData
+import edk2toolbase.Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.GlobalData as GlobalData
 import Ecc.EccGlobalData as EccGlobalData
 import Ecc.EccToolError as EccToolError
 
-from CommonDataClass.DataClass import *
+from edk2toolbase.CommonDataClass.DataClass import *
 from edk2toolbase.Common.DataType import *
 from edk2toolbase.Common.StringUtils import *
 from edk2toolbase.Common.Misc import GuidStructureStringToGuidString, CheckPcdDatum, PathClass, AnalyzePcdData
 from edk2toolbase.Common.Expression import *
-from CommonDataClass.Exceptions import *
+from edk2toolbase.CommonDataClass.Exceptions import *
 
 from Ecc.MetaFileWorkspace.MetaFileTable import MetaFileStorage
 from GenFds.FdfParser import FdfParser

@@ -11,10 +11,10 @@
 from __future__ import print_function
 from __future__ import absolute_import
 
-import Common.LongFilePathOs as os
-import Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.LongFilePathOs as os
+import edk2toolbase.Common.EdkLogger as EdkLogger
 from edk2toolbase.Common.DataType import *
-from CommonDataClass.DataClass import *
+from edk2toolbase.CommonDataClass.DataClass import *
 from Eot.Identification import Identification
 from edk2toolbase.Common.StringUtils import *
 from Eot.Parser import *

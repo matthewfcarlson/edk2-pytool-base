@@ -10,14 +10,14 @@
 #
 from __future__ import absolute_import
 import re
-from . import DataType
-import Common.LongFilePathOs as os
+from edk2toolbase.Common import DataType
+import edk2toolbase.Common.LongFilePathOs as os
 import string
-from . import EdkLogger as EdkLogger
+from edk2toolbase.Common import EdkLogger as EdkLogger
 
-from . import GlobalData
-from .BuildToolError import *
-from CommonDataClass.Exceptions import *
+from edk2toolbase.Common import GlobalData
+from edk2toolbase.Common.BuildToolError import *
+from edk2toolbase.CommonDataClass.Exceptions import *
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 

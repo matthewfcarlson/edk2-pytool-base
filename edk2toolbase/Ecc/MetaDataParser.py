@@ -6,8 +6,8 @@
 #
 
 from __future__ import absolute_import
-import Common.LongFilePathOs as os
-from CommonDataClass.DataClass import *
+import edk2toolbase.Common.LongFilePathOs as os
+from edk2toolbase.CommonDataClass.DataClass import *
 from Ecc.EccToolError import *
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 from Ecc import EccGlobalData

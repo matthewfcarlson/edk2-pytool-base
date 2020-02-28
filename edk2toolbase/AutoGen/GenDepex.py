@@ -7,7 +7,7 @@
 ## Import Modules
 #
 import sys
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 import re
 import traceback
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
@@ -18,7 +18,7 @@ from edk2toolbase.Common.Misc import SaveFileOnChange
 from edk2toolbase.Common.Misc import GuidStructureStringToGuidString
 from edk2toolbase.Common.Misc import GuidStructureByteArrayToGuidString
 from edk2toolbase.Common.Misc import GuidStringToGuidStructureString
-from Common import EdkLogger as EdkLogger
+from edk2toolbase.Common import EdkLogger as EdkLogger
 from edk2toolbase.Common.BuildVersion import gBUILD_VERSION
 from edk2toolbase.Common.DataType import *
 

@@ -8,14 +8,14 @@
 from __future__ import print_function
 from __future__ import absolute_import
 import sys
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 import re
 import string
 from Ecc import CodeFragmentCollector
 from Ecc import FileProfile
 from CommonDataClass import DataClass
 from Ecc import Database
-from Common import EdkLogger
+from edk2toolbase.Common import EdkLogger
 from Ecc.EccToolError import *
 from Ecc import EccGlobalData
 from Ecc import MetaDataParser

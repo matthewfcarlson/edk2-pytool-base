@@ -12,7 +12,7 @@
 
 from __future__ import absolute_import
 import re
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 from Ecc.ParserWarning import Warning
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 

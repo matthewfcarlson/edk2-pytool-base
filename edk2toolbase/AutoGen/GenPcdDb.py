@@ -16,9 +16,9 @@ from edk2toolbase.Common.VariableAttributes import VariableAttributes
 import copy
 from struct import unpack
 from edk2toolbase.Common.DataType import *
-from Common import GlobalData
-from Common import EdkLogger
-import Common.LongFilePathOs as os
+from edk2toolbase.Common import GlobalData
+from edk2toolbase.Common import EdkLogger
+import edk2toolbase.Common.LongFilePathOs as os
 
 DATABASE_VERSION = 7
 

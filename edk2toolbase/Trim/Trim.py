@@ -8,7 +8,7 @@
 ##
 # Import Modules
 #
-import Common.LongFilePathOs as os
+import edk2toolbase.Common.LongFilePathOs as os
 import sys
 import re
 from io import BytesIO
@@ -19,7 +19,7 @@ from edk2toolbase.Common.BuildToolError import *
 from edk2toolbase.Common.Misc import *
 from edk2toolbase.Common.DataType import *
 from edk2toolbase.Common.BuildVersion import gBUILD_VERSION
-import Common.EdkLogger as EdkLogger
+import edk2toolbase.Common.EdkLogger as EdkLogger
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 
 # Version and Copyright
