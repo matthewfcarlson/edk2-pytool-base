@@ -4,6 +4,18 @@ This is a Tianocore maintained project consisting of a the python source files t
 
 This is a fundamental package and is required to be used for edk2 builds.
 
+## How to use it
+
+As it stands right now, this isn't hosted on PyPi, so it needs to be installed locally.
+
+1. Clone the repo locally
+2. Run `pip install -e .` (you might need do this from an admin prompt in windows)
+4. Run edk2_build to make sure it works
+3. Switch to an EDK2 basetools that has the necessary hooks
+
+Right now the only EDK2 that supports this package is https://github.com/matthewfcarlson/edk2/tree/feature/pip-basetools
+This commit: https://github.com/matthewfcarlson/edk2/commit/40bb4778f5edb380c38233399507d00dd47df80d gives you a good idea of how to enable it for your repo if need to enable it.
+
 ## Content
 
 The package contains classes and modules that can be used as the building blocks of tools that are relevant to UEFI firmware developers.  These modules should attempt to provide generic support and avoid tightly coupling with specific use cases.  It is expected these modules do not provide direct interaction with the user (through command line interfaces) but instead are intended to be wrapped in other scripts/tools which contains the specific usage and interface.
