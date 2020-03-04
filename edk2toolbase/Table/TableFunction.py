@@ -10,14 +10,14 @@
 #
 from __future__ import absolute_import
 import edk2toolbase.Common.EdkLogger as EdkLogger
-from Table.Table import Table
+from edk2toolbase.Table.Table import Table
 from edk2toolbase.Common.StringUtils import ConvertToSqlString
 
 ## TableFunction
 #
 # This class defined a table used for function
 #
-# @param Table:       Inherited from Table class
+# @param Table:       Inherited from edk2toolbase.Table class
 #
 class TableFunction(Table):
     def __init__(self, Cursor):

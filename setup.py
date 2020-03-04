@@ -52,7 +52,10 @@ setuptools.setup(
         'antlr4-python3-runtime'
     ],
     entry_points={
-        'console_scripts': ['edk2_build=edk2toolbase.build.build:Main']
+        'console_scripts': [
+            'edk2_build=edk2toolbase.build.build:Main',
+            'edk2_ecc=edk2toolbase.Ecc.EccMain:Main'
+        ]
     },
     classifiers=[
         "Programming Language :: Python :: 3",

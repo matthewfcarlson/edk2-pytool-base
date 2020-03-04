@@ -11,10 +11,10 @@
 from __future__ import absolute_import
 import edk2toolbase.Common.EdkLogger as EdkLogger
 import edk2toolbase.Common.LongFilePathOs as os, time
-from Table.Table import Table
+from edk2toolbase.Table.Table import Table
 from edk2toolbase.Common.StringUtils import ConvertToSqlString2
-import Ecc.EccToolError as EccToolError
-import Ecc.EccGlobalData as EccGlobalData
+import edk2toolbase.Ecc.EccToolError as EccToolError
+import edk2toolbase.Ecc.EccGlobalData as EccGlobalData
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 
 ## TableReport

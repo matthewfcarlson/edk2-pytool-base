@@ -19,8 +19,8 @@ import sys
 #
 ##
 
-import Ecc.CodeFragment as CodeFragment
-import Ecc.FileProfile as FileProfile
+import edk2toolbase.Ecc.CodeFragment as CodeFragment
+import edk2toolbase.Ecc.FileProfile as FileProfile
 
 def serializedATN():
     with StringIO() as buf:

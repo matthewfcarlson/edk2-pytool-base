@@ -9,10 +9,10 @@ import edk2toolbase.Common.LongFilePathOs as os
 import re
 from edk2toolbase.CommonDataClass.DataClass import *
 import edk2toolbase.Common.DataType as DT
-from Ecc.EccToolError import *
-from Ecc.MetaDataParser import ParseHeaderCommentSection
-from Ecc import EccGlobalData
-from Ecc import c
+from edk2toolbase.Ecc.EccToolError import *
+from edk2toolbase.Ecc.MetaDataParser import ParseHeaderCommentSection
+from edk2toolbase.Ecc import EccGlobalData
+from edk2toolbase.Ecc import c
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 

@@ -14,16 +14,16 @@ import edk2toolbase.Common.LongFilePathOs as os, time
 import edk2toolbase.Common.EdkLogger as EdkLogger
 import CommonDataClass.DataClass as DataClass
 
-from Table.TableDataModel import TableDataModel
-from Table.TableFile import TableFile
-from Table.TableFunction import TableFunction
-from Table.TableIdentifier import TableIdentifier
-from Table.TableEotReport import TableEotReport
-from Table.TableInf import TableInf
-from Table.TableDec import TableDec
-from Table.TableDsc import TableDsc
-from Table.TableFdf import TableFdf
-from Table.TableQuery import TableQuery
+from edk2toolbase.Table.TableDataModel import TableDataModel
+from edk2toolbase.Table.TableFile import TableFile
+from edk2toolbase.Table.TableFunction import TableFunction
+from edk2toolbase.Table.TableIdentifier import TableIdentifier
+from edk2toolbase.Table.TableEotReport import TableEotReport
+from edk2toolbase.Table.TableInf import TableInf
+from edk2toolbase.Table.TableDec import TableDec
+from edk2toolbase.Table.TableDsc import TableDsc
+from edk2toolbase.Table.TableFdf import TableFdf
+from edk2toolbase.Table.TableQuery import TableQuery
 
 ##
 # Static definitions

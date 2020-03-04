@@ -8,9 +8,9 @@
 from __future__ import absolute_import
 import edk2toolbase.Common.LongFilePathOs as os
 from edk2toolbase.CommonDataClass.DataClass import *
-from Ecc.EccToolError import *
+from edk2toolbase.Ecc.EccToolError import *
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
-from Ecc import EccGlobalData
+from edk2toolbase.Ecc import EccGlobalData
 import re
 ## Get the include path list for a source file
 #

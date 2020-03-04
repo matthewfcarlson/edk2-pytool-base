@@ -17,19 +17,19 @@ import edk2toolbase.Common.LongFilePathOs as os
 import sys
 if sys.version_info.major == 3:
     import antlr4 as antlr
-    from Ecc.CParser4.CLexer import CLexer
-    from Ecc.CParser4.CParser import CParser
+    from edk2toolbase.Ecc.CParser4.CLexer import CLexer
+    from edk2toolbase.Ecc.CParser4.CParser import CParser
 else:
     import antlr3 as antlr
     antlr.InputStream = antlr.StringStream
-    from Ecc.CParser3.CLexer import CLexer
-    from Ecc.CParser3.CParser import CParser
+    from edk2toolbase.Ecc.CParser3.CLexer import CLexer
+    from edk2toolbase.Ecc.CParser3.CParser import CParser
 
 
-from Ecc import FileProfile
-from Ecc.CodeFragment import Comment
-from Ecc.CodeFragment import PP_Directive
-from Ecc.ParserWarning import Warning
+from edk2toolbase.Ecc import FileProfile
+from edk2toolbase.Ecc.CodeFragment import Comment
+from edk2toolbase.Ecc.CodeFragment import PP_Directive
+from edk2toolbase.Ecc.ParserWarning import Warning
 
 
 ##define T_CHAR_SPACE                ' '

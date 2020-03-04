@@ -12,10 +12,10 @@ from __future__ import absolute_import
 import uuid
 
 import edk2toolbase.Common.EdkLogger as EdkLogger
-import Ecc.EccGlobalData as EccGlobalData
+import edk2toolbase.Ecc.EccGlobalData as EccGlobalData
 
-from Ecc.MetaFileWorkspace.MetaDataTable import Table
-from Ecc.MetaFileWorkspace.MetaDataTable import ConvertToSqlString
+from edk2toolbase.Ecc.MetaFileWorkspace.MetaDataTable import Table
+from edk2toolbase.Ecc.MetaFileWorkspace.MetaDataTable import ConvertToSqlString
 from edk2toolbase.CommonDataClass.DataClass import MODEL_FILE_DSC, MODEL_FILE_DEC, MODEL_FILE_INF, \
                                       MODEL_FILE_OTHERS
 

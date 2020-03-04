@@ -18,8 +18,8 @@ from antlr3.compat import set, frozenset
 #
 ##
 
-from Ecc import CodeFragment
-from Ecc import FileProfile
+from edk2toolbase.Ecc import CodeFragment
+from edk2toolbase.Ecc import FileProfile
 
 
 

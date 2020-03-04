@@ -13,7 +13,7 @@
 from __future__ import absolute_import
 import re
 import edk2toolbase.Common.LongFilePathOs as os
-from Ecc.ParserWarning import Warning
+from edk2toolbase.Ecc.ParserWarning import Warning
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 
 CommentList = []

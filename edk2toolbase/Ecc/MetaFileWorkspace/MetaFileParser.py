@@ -16,8 +16,8 @@ import copy
 from hashlib import md5
 import edk2toolbase.Common.EdkLogger as EdkLogger
 import edk2toolbase.Common.GlobalData as GlobalData
-import Ecc.EccGlobalData as EccGlobalData
-import Ecc.EccToolError as EccToolError
+import edk2toolbase.Ecc.EccGlobalData as EccGlobalData
+import edk2toolbase.Ecc.EccToolError as EccToolError
 
 from edk2toolbase.CommonDataClass.DataClass import *
 from edk2toolbase.Common.DataType import *
@@ -26,8 +26,8 @@ from edk2toolbase.Common.Misc import GuidStructureStringToGuidString, CheckPcdDa
 from edk2toolbase.Common.Expression import *
 from edk2toolbase.CommonDataClass.Exceptions import *
 
-from Ecc.MetaFileWorkspace.MetaFileTable import MetaFileStorage
-from GenFds.FdfParser import FdfParser
+from edk2toolbase.Ecc.MetaFileWorkspace.MetaFileTable import MetaFileStorage
+from edk2toolbase.GenFds.FdfParser import FdfParser
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 from edk2toolbase.Common.LongFilePathSupport import CodecOpenLongFilePath
 

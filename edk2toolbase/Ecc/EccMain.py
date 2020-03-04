@@ -11,12 +11,12 @@
 from __future__ import absolute_import
 import edk2toolbase.Common.LongFilePathOs as os, time, glob, sys
 import edk2toolbase.Common.EdkLogger as EdkLogger
-from Ecc import Database
-from Ecc import EccGlobalData
-from Ecc.MetaDataParser import *
+from edk2toolbase.Ecc import Database
+from edk2toolbase.Ecc import EccGlobalData
+from edk2toolbase.Ecc.MetaDataParser import *
 from optparse import OptionParser
-from Ecc.Configuration import Configuration
-from Ecc.Check import Check
+from edk2toolbase.Ecc.Configuration import Configuration
+from edk2toolbase.Ecc.Check import Check
 import edk2toolbase.Common.GlobalData as GlobalData
 
 from edk2toolbase.Common.StringUtils import NormPath
@@ -24,14 +24,14 @@ from edk2toolbase.Common.BuildVersion import gBUILD_VERSION
 from edk2toolbase.Common import BuildToolError
 from edk2toolbase.Common.Misc import PathClass
 from edk2toolbase.Common.Misc import DirCache
-from Ecc.MetaFileWorkspace.MetaFileParser import DscParser
-from Ecc.MetaFileWorkspace.MetaFileParser import DecParser
-from Ecc.MetaFileWorkspace.MetaFileParser import InfParser
-from Ecc.MetaFileWorkspace.MetaFileParser import Fdf
-from Ecc.MetaFileWorkspace.MetaFileTable import MetaFileStorage
-from Ecc import c
+from edk2toolbase.Ecc.MetaFileWorkspace.MetaFileParser import DscParser
+from edk2toolbase.Ecc.MetaFileWorkspace.MetaFileParser import DecParser
+from edk2toolbase.Ecc.MetaFileWorkspace.MetaFileParser import InfParser
+from edk2toolbase.Ecc.MetaFileWorkspace.MetaFileParser import Fdf
+from edk2toolbase.Ecc.MetaFileWorkspace.MetaFileTable import MetaFileStorage
+from edk2toolbase.Ecc import c
 import re, string
-from Ecc.Exception import *
+from edk2toolbase.Ecc.Exception import *
 from edk2toolbase.Common.LongFilePathSupport import OpenLongFilePath as open
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 
@@ -396,19 +396,23 @@ class Ecc(object):
 
         return (Opt, Args)
 
+def Main():
+    # Initialize log system
+    EdkLogger.Initialize()
+    EdkLogger.IsRaiseError = False
+
+    StartTime = time.clock()
+    Ecc()
+    FinishTime = time.clock()
+
+    BuildDuration = time.strftime("%M:%S", time.gmtime(int(round(FinishTime - StartTime))))
+    EdkLogger.quiet("\n%s [%s]" % (time.strftime("%H:%M:%S, %b.%d %Y", time.localtime()), BuildDuration))
+
+
 ##
 #
 # This acts like the main() function for the script, unless it is 'import'ed into another
 # script.
 #
 if __name__ == '__main__':
-    # Initialize log system
-    EdkLogger.Initialize()
-    EdkLogger.IsRaiseError = False
-
-    StartTime = time.clock()
-    Ecc = Ecc()
-    FinishTime = time.clock()
-
-    BuildDuration = time.strftime("%M:%S", time.gmtime(int(round(FinishTime - StartTime))))
-    EdkLogger.quiet("\n%s [%s]" % (time.strftime("%H:%M:%S, %b.%d %Y", time.localtime()), BuildDuration))
+    Main()

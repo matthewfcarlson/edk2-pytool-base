@@ -12,7 +12,7 @@ from __future__ import print_function
 import edk2toolbase.Common.LongFilePathOs as os
 
 import edk2toolbase.Common.EdkLogger as EdkLogger
-from CommonDataClass import DataClass
+from edk2toolbase.CommonDataClass import DataClass
 from edk2toolbase.CommonDataClass.DataClass import FileClass
 
 ## Convert to SQL required string format

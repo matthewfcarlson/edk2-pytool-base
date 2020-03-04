@@ -11,7 +11,7 @@
 from __future__ import absolute_import
 import edk2toolbase.Common.EdkLogger as EdkLogger
 import CommonDataClass.DataClass as DataClass
-from Table.Table import Table
+from edk2toolbase.Table.Table import Table
 from edk2toolbase.Common.StringUtils import ConvertToSqlString
 
 ## TableInf

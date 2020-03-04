@@ -13,18 +13,18 @@ import sqlite3
 import edk2toolbase.Common.LongFilePathOs as os, time
 
 import edk2toolbase.Common.EdkLogger as EdkLogger
-import CommonDataClass.DataClass as DataClass
+import edk2toolbase.CommonDataClass.DataClass as DataClass
 
-from Table.TableDataModel import TableDataModel
-from Table.TableFile import TableFile
-from Table.TableFunction import TableFunction
-from Table.TablePcd import TablePcd
-from Table.TableIdentifier import TableIdentifier
-from Table.TableReport import TableReport
-from Ecc.MetaFileWorkspace.MetaFileTable import ModuleTable
-from Ecc.MetaFileWorkspace.MetaFileTable import PackageTable
-from Ecc.MetaFileWorkspace.MetaFileTable import PlatformTable
-from Table.TableFdf import TableFdf
+from edk2toolbase.Table.TableDataModel import TableDataModel
+from edk2toolbase.Table.TableFile import TableFile
+from edk2toolbase.Table.TableFunction import TableFunction
+from edk2toolbase.Table.TablePcd import TablePcd
+from edk2toolbase.Table.TableIdentifier import TableIdentifier
+from edk2toolbase.Table.TableReport import TableReport
+from edk2toolbase.Ecc.MetaFileWorkspace.MetaFileTable import ModuleTable
+from edk2toolbase.Ecc.MetaFileWorkspace.MetaFileTable import PackageTable
+from edk2toolbase.Ecc.MetaFileWorkspace.MetaFileTable import PlatformTable
+from edk2toolbase.Table.TableFdf import TableFdf
 
 ##
 # Static definitions

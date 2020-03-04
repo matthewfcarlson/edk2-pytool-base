@@ -11,14 +11,14 @@ import sys
 import edk2toolbase.Common.LongFilePathOs as os
 import re
 import string
-from Ecc import CodeFragmentCollector
-from Ecc import FileProfile
-from CommonDataClass import DataClass
-from Ecc import Database
+from edk2toolbase.Ecc import CodeFragmentCollector
+from edk2toolbase.Ecc import FileProfile
+from edk2toolbase.CommonDataClass import DataClass
+from edk2toolbase.Ecc import Database
 from edk2toolbase.Common import EdkLogger
-from Ecc.EccToolError import *
-from Ecc import EccGlobalData
-from Ecc import MetaDataParser
+from edk2toolbase.Ecc.EccToolError import *
+from edk2toolbase.Ecc import EccGlobalData
+from edk2toolbase.Ecc import MetaDataParser
 
 IncludeFileListDict = {}
 AllIncludeFileListDict = {}

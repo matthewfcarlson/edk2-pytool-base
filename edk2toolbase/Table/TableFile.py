@@ -10,7 +10,7 @@
 #
 from __future__ import absolute_import
 import edk2toolbase.Common.EdkLogger as EdkLogger
-from Table.Table import Table
+from edk2toolbase.Table.Table import Table
 from edk2toolbase.Common.StringUtils import ConvertToSqlString
 import edk2toolbase.Common.LongFilePathOs as os
 from edk2toolbase.CommonDataClass.DataClass import FileClass

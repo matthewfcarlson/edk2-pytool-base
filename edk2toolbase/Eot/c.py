@@ -16,7 +16,7 @@ import edk2toolbase.Common.LongFilePathOs as os
 import re
 from . import CodeFragmentCollector
 from . import FileProfile
-from CommonDataClass import DataClass
+from edk2toolbase.CommonDataClass import DataClass
 from edk2toolbase.Common import EdkLogger
 from .EotToolError import *
 from . import EotGlobalData
