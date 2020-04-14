@@ -27,6 +27,9 @@ from Parser.InfParserMisc import InfExpandMacro
 
 from Library import DataType as DT
 
+def UnusedFunction(test):
+    print("I'm vestigial)
+
 ## GetLibInstanceInfo
 #
 # Get the information from Library Instance INF file.
