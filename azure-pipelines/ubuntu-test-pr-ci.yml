@@ -8,8 +8,8 @@ resources:
   repositories:
     - repository: pytool_extensions
       type: github
-      name: tianocore/edk2-pytool-extensions
-      ref: refs/heads/master
+      name: matthewfcarlson/edk2-pytool-extensions
+      ref: refs/heads/feature/code-coverage
       endpoint: matthewfcarlson
 
 # trigger on master for CI and all PRs for master
@@ -24,5 +24,5 @@ jobs:
 - template: azure-pipelines/templates/build-test-job.yml@pytool_extensions
   parameters:
     vm_image: 'ubuntu-latest'
-    root_package_folder: "edk2toollib"
+    root_package_folder: "edk2toolbase"
     name: 'ubuntu'
