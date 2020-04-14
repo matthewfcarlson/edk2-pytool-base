@@ -10,7 +10,6 @@ resources:
       type: github
       name: tianocore/edk2-pytool-extensions
       ref: refs/heads/master
-      endpoint: tianocore
 
 # trigger on master for CI and all PRs for master
 trigger: 
