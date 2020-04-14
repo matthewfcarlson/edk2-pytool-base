@@ -12,24 +12,24 @@ InfPomAlignment
 # Import modules
 #
 import os.path
-from Logger import StringTable as ST
+from edk2toolbase.UPT.Logger import StringTable as ST
 import Logger.Log as Logger
-from Library.StringUtils import FORMAT_INVALID
-from Library.StringUtils import PARSER_ERROR
-from Library.StringUtils import NormPath
-from Library.StringUtils import GetSplitValueList
-from Library.Misc import ConvertVersionToDecimal
-from Library.Misc import GetHelpStringByRemoveHashKey
-from Library.Misc import ConvertArchList
-from Library.Misc import GetRelativePath
-from Library.Misc import PathClass
-from Library.Parsing import GetPkgInfoFromDec
-from Library.UniClassObject import UniFileClassObject
-from Library.UniClassObject import ConvertSpecialUnicodes
-from Library.UniClassObject import GetLanguageCode1766
+from edk2toolbase.UPT.Library.StringUtils import FORMAT_INVALID
+from edk2toolbase.UPT.Library.StringUtils import PARSER_ERROR
+from edk2toolbase.UPT.Library.StringUtils import NormPath
+from edk2toolbase.UPT.Library.StringUtils import GetSplitValueList
+from edk2toolbase.UPT.Library.Misc import ConvertVersionToDecimal
+from edk2toolbase.UPT.Library.Misc import GetHelpStringByRemoveHashKey
+from edk2toolbase.UPT.Library.Misc import ConvertArchList
+from edk2toolbase.UPT.Library.Misc import GetRelativePath
+from edk2toolbase.UPT.Library.Misc import PathClass
+from edk2toolbase.UPT.Library.Parsing import GetPkgInfoFromDec
+from edk2toolbase.UPT.Library.UniClassObject import UniFileClassObject
+from edk2toolbase.UPT.Library.UniClassObject import ConvertSpecialUnicodes
+from edk2toolbase.UPT.Library.UniClassObject import GetLanguageCode1766
 from Library import DataType as DT
 from Library import GlobalData
-from Library.ParserValidate import IsValidPath
+from edk2toolbase.UPT.Library.ParserValidate import IsValidPath
 from Object.POM import CommonObject
 from Object.POM.ModuleObject import ModuleObject
 from Object.POM.ModuleObject import ExternObject

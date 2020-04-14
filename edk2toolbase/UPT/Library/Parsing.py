@@ -18,25 +18,25 @@ from __future__ import absolute_import
 import os.path
 import re
 
-from Library.StringUtils import RaiseParserError
-from Library.StringUtils import GetSplitValueList
-from Library.StringUtils import CheckFileType
-from Library.StringUtils import CheckFileExist
-from Library.StringUtils import CleanString
-from Library.StringUtils import NormPath
+from edk2toolbase.UPT.Library.StringUtils import RaiseParserError
+from edk2toolbase.UPT.Library.StringUtils import GetSplitValueList
+from edk2toolbase.UPT.Library.StringUtils import CheckFileType
+from edk2toolbase.UPT.Library.StringUtils import CheckFileExist
+from edk2toolbase.UPT.Library.StringUtils import CleanString
+from edk2toolbase.UPT.Library.StringUtils import NormPath
 
-from Logger.ToolError import FILE_NOT_FOUND
-from Logger.ToolError import FatalError
-from Logger.ToolError import FORMAT_INVALID
+from edk2toolbase.UPT.Logger.ToolError import FILE_NOT_FOUND
+from edk2toolbase.UPT.Logger.ToolError import FatalError
+from edk2toolbase.UPT.Logger.ToolError import FORMAT_INVALID
 
-from Library import DataType
+from edk2toolbase.UPT.Library import DataType
 
-from Library.Misc import GuidStructureStringToGuidString
-from Library.Misc import CheckGuidRegFormat
-from Logger import StringTable as ST
-import Logger.Log as Logger
+from edk2toolbase.UPT.Library.Misc import GuidStructureStringToGuidString
+from edk2toolbase.UPT.Library.Misc import CheckGuidRegFormat
+from edk2toolbase.UPT.Logger import StringTable as ST
+import edk2toolbase.UPT.Logger.Log as Logger
 
-from Parser.DecParser import Dec
+from edk2toolbase.UPT.Parser.DecParser import Dec
 from . import GlobalData
 
 gPKG_INFO_DICT = {}

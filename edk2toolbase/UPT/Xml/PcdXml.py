@@ -14,14 +14,14 @@ PcdXml
 # Import Modules
 #
 
-from Library.Xml.XmlRoutines import XmlElement
-from Library.Xml.XmlRoutines import XmlAttribute
-from Library.Xml.XmlRoutines import XmlNode
-from Library.Xml.XmlRoutines import CreateXmlElement
-from Library.Xml.XmlRoutines import XmlList
-from Library.StringUtils import GetStringOfList
-from Library.StringUtils import ConvertNEToNOTEQ
-from Library.StringUtils import ConvertNOTEQToNE
+from edk2toolbase.UPT.Library.Xml.XmlRoutines import XmlElement
+from edk2toolbase.UPT.Library.Xml.XmlRoutines import XmlAttribute
+from edk2toolbase.UPT.Library.Xml.XmlRoutines import XmlNode
+from edk2toolbase.UPT.Library.Xml.XmlRoutines import CreateXmlElement
+from edk2toolbase.UPT.Library.Xml.XmlRoutines import XmlList
+from edk2toolbase.UPT.Library.StringUtils import GetStringOfList
+from edk2toolbase.UPT.Library.StringUtils import ConvertNEToNOTEQ
+from edk2toolbase.UPT.Library.StringUtils import ConvertNOTEQToNE
 from Library import GlobalData
 from Object.POM.CommonObject import PcdObject
 from Object.POM.CommonObject import PcdErrorObject

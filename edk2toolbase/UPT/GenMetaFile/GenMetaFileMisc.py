@@ -11,9 +11,9 @@
 GenMetaFileMisc
 '''
 
-from Library import DataType as DT
-from Library import GlobalData
-from Parser.DecParser import Dec
+from edk2toolbase.UPT.Library import DataType as DT
+from edk2toolbase.UPT.Library import GlobalData
+from edk2toolbase.UPT.Parser.DecParser import Dec
 
 # AddExternToDefineSec
 #

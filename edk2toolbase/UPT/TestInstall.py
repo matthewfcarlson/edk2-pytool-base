@@ -13,7 +13,7 @@ Test Install multiple distribution package
 #
 from Library import GlobalData
 import Logger.Log as Logger
-from Logger import StringTable as ST
+from edk2toolbase.UPT.Logger import StringTable as ST
 import Logger.ToolError as TE
 from Core.DependencyRules import DependencyRules
 from InstallPkg import UnZipDp

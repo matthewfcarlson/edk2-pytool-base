@@ -26,21 +26,21 @@ from time import strftime
 from time import localtime
 from uuid import uuid4
 
-from Logger import StringTable as ST
-from Logger.ToolError import OPTION_UNKNOWN_ERROR
-from Logger.ToolError import OPTION_VALUE_INVALID
-from Logger.ToolError import ABORT_ERROR
-from Logger.ToolError import UPT_REPKG_ERROR
-from Logger.ToolError import CODE_ERROR
-from Logger.ToolError import FatalError
-from Logger.ToolError import FILE_NOT_FOUND
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Logger.ToolError import OPTION_UNKNOWN_ERROR
+from edk2toolbase.UPT.Logger.ToolError import OPTION_VALUE_INVALID
+from edk2toolbase.UPT.Logger.ToolError import ABORT_ERROR
+from edk2toolbase.UPT.Logger.ToolError import UPT_REPKG_ERROR
+from edk2toolbase.UPT.Logger.ToolError import CODE_ERROR
+from edk2toolbase.UPT.Logger.ToolError import FatalError
+from edk2toolbase.UPT.Logger.ToolError import FILE_NOT_FOUND
 import Logger.Log as Logger
 
 from Xml.XmlParser import DistributionPackageXml
 from Xml.IniToXml import IniToXml
 
 from Library import GlobalData
-from Library.ParserValidate import IsValidPath
+from edk2toolbase.UPT.Library.ParserValidate import IsValidPath
 
 from Core.DistributionPackageClass import DistributionPackageClass
 from Core.PackageFile import PackageFile

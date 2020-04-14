@@ -14,15 +14,15 @@ DistributionPackageClass
 #
 import os.path
 
-from Library.Misc import Sdict
-from Library.Misc import GetNonMetaDataFiles
+from edk2toolbase.UPT.Library.Misc import Sdict
+from edk2toolbase.UPT.Library.Misc import GetNonMetaDataFiles
 from PomAdapter.InfPomAlignment import InfPomAlignment
 from PomAdapter.DecPomAlignment import DecPomAlignment
 import Logger.Log as Logger
-from Logger import StringTable as ST
-from Logger.ToolError import OPTION_VALUE_INVALID
-from Logger.ToolError import FatalError
-from Logger.ToolError import EDK1_INF_ERROR
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Logger.ToolError import OPTION_VALUE_INVALID
+from edk2toolbase.UPT.Logger.ToolError import FatalError
+from edk2toolbase.UPT.Logger.ToolError import EDK1_INF_ERROR
 from Object.POM.CommonObject import IdentificationObject
 from Object.POM.CommonObject import CommonHeaderObject
 from Object.POM.CommonObject import MiscFileObject

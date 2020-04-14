@@ -12,22 +12,22 @@ InfPcdObject
 import os
 import re
 
-from Logger import StringTable as ST
-from Logger import ToolError
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Logger import ToolError
 import Logger.Log as Logger
 from Library import GlobalData
 from Library import DataType as DT
 
-from Library.Misc import Sdict
-from Library.Misc import GetHelpStringByRemoveHashKey
-from Library.ParserValidate import IsValidPcdType
-from Library.ParserValidate import IsValidCVariableName
-from Library.ParserValidate import IsValidPcdValue
-from Library.ParserValidate import IsValidArch
-from Library.CommentParsing import ParseComment
-from Library.StringUtils import GetSplitValueList
-from Library.StringUtils import IsHexDigitUINT32
-from Library.ExpressionValidate import IsValidFeatureFlagExp
+from edk2toolbase.UPT.Library.Misc import Sdict
+from edk2toolbase.UPT.Library.Misc import GetHelpStringByRemoveHashKey
+from edk2toolbase.UPT.Library.ParserValidate import IsValidPcdType
+from edk2toolbase.UPT.Library.ParserValidate import IsValidCVariableName
+from edk2toolbase.UPT.Library.ParserValidate import IsValidPcdValue
+from edk2toolbase.UPT.Library.ParserValidate import IsValidArch
+from edk2toolbase.UPT.Library.CommentParsing import ParseComment
+from edk2toolbase.UPT.Library.StringUtils import GetSplitValueList
+from edk2toolbase.UPT.Library.StringUtils import IsHexDigitUINT32
+from edk2toolbase.UPT.Library.ExpressionValidate import IsValidFeatureFlagExp
 from Parser.InfAsBuiltProcess import GetPackageListInfo
 from Parser.DecParser import Dec
 

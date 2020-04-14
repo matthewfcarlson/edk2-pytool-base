@@ -10,15 +10,15 @@
 InfGuidObject
 '''
 
-from Library.ParserValidate import IsValidCVariableName
-from Library.CommentParsing import ParseComment
-from Library.ExpressionValidate import IsValidFeatureFlagExp
+from edk2toolbase.UPT.Library.ParserValidate import IsValidCVariableName
+from edk2toolbase.UPT.Library.CommentParsing import ParseComment
+from edk2toolbase.UPT.Library.ExpressionValidate import IsValidFeatureFlagExp
 
-from Library.Misc import Sdict
+from edk2toolbase.UPT.Library.Misc import Sdict
 from Library import DataType as DT
 import Logger.Log as Logger
-from Logger import ToolError
-from Logger import StringTable as ST
+from edk2toolbase.UPT.Logger import ToolError
+from edk2toolbase.UPT.Logger import StringTable as ST
 
 class InfGuidItemCommentContent():
     def __init__(self):

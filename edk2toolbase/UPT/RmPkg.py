@@ -23,13 +23,13 @@ from sys import platform
 
 from Core.DependencyRules import DependencyRules
 from Library import GlobalData
-from Logger import StringTable as ST
+from edk2toolbase.UPT.Logger import StringTable as ST
 import Logger.Log as Logger
-from Logger.ToolError import OPTION_MISSING
-from Logger.ToolError import UNKNOWN_ERROR
-from Logger.ToolError import ABORT_ERROR
-from Logger.ToolError import CODE_ERROR
-from Logger.ToolError import FatalError
+from edk2toolbase.UPT.Logger.ToolError import OPTION_MISSING
+from edk2toolbase.UPT.Logger.ToolError import UNKNOWN_ERROR
+from edk2toolbase.UPT.Logger.ToolError import ABORT_ERROR
+from edk2toolbase.UPT.Logger.ToolError import CODE_ERROR
+from edk2toolbase.UPT.Logger.ToolError import FatalError
 
 
 ## CheckDpDepex

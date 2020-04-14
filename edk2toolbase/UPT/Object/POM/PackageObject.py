@@ -16,7 +16,7 @@ from Object.POM.CommonObject import CommonPropertiesObject
 from Object.POM.CommonObject import IdentificationObject
 from Object.POM.CommonObject import CommonHeaderObject
 from Object.POM.CommonObject import BinaryHeaderObject
-from Library.Misc import Sdict
+from edk2toolbase.UPT.Library.Misc import Sdict
 
 ## StandardIncludeFileObject
 #

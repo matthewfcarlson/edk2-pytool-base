@@ -12,17 +12,17 @@ InfSourcesObject
 
 import os
 
-from Logger import StringTable as ST
-from Logger import ToolError
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Logger import ToolError
 import Logger.Log as Logger
 from Library import GlobalData
 
-from Library.Misc import Sdict
-from Library.ExpressionValidate import IsValidFeatureFlagExp
+from edk2toolbase.UPT.Library.Misc import Sdict
+from edk2toolbase.UPT.Library.ExpressionValidate import IsValidFeatureFlagExp
 from Object.Parser.InfCommonObject import InfSectionCommonDef
-from Library.Misc import ValidFile
-from Library.ParserValidate import IsValidFamily
-from Library.ParserValidate import IsValidPath
+from edk2toolbase.UPT.Library.Misc import ValidFile
+from edk2toolbase.UPT.Library.ParserValidate import IsValidFamily
+from edk2toolbase.UPT.Library.ParserValidate import IsValidPath
 
 ## __GenSourceInstance
 #

@@ -15,10 +15,10 @@ from sys import platform
 from traceback import format_exc
 from platform import python_version
 
-from Logger import StringTable as ST
-from Logger.ToolError import FatalError
-from Logger.ToolError import ABORT_ERROR
-from Logger.ToolError import CODE_ERROR
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Logger.ToolError import FatalError
+from edk2toolbase.UPT.Logger.ToolError import ABORT_ERROR
+from edk2toolbase.UPT.Logger.ToolError import CODE_ERROR
 import Logger.Log as Logger
 
 from Library import GlobalData

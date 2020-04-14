@@ -13,29 +13,29 @@ import os
 import stat
 import codecs
 from hashlib import md5
-from Core.FileHook import __FileHookOpen__
-from Library.StringUtils import GetSplitValueList
-from Library.Parsing import GenSection
-from Library.Parsing import GetWorkspacePackage
-from Library.Parsing import ConvertArchForInstall
-from Library.Misc import SaveFileOnChange
-from Library.Misc import IsAllModuleList
-from Library.Misc import Sdict
-from Library.Misc import ConvertPath
-from Library.Misc import ConvertSpec
-from Library.Misc import GetRelativePath
-from Library.Misc import GetLocalValue
-from Library.CommentGenerating import GenHeaderCommentSection
-from Library.CommentGenerating import GenGenericCommentF
-from Library.CommentGenerating import _GetHelpStr
-from Library import GlobalData
-from Logger import StringTable as ST
-from Logger import ToolError
-import Logger.Log as Logger
-from Library import DataType as DT
-from GenMetaFile import GenMetaFileMisc
-from Library.UniClassObject import FormatUniEntry
-from Library.StringUtils import GetUniFileName
+from edk2toolbase.UPT.Core.FileHook import __FileHookOpen__
+from edk2toolbase.UPT.Library.StringUtils import GetSplitValueList
+from edk2toolbase.UPT.Library.Parsing import GenSection
+from edk2toolbase.UPT.Library.Parsing import GetWorkspacePackage
+from edk2toolbase.UPT.Library.Parsing import ConvertArchForInstall
+from edk2toolbase.UPT.Library.Misc import SaveFileOnChange
+from edk2toolbase.UPT.Library.Misc import IsAllModuleList
+from edk2toolbase.UPT.Library.Misc import Sdict
+from edk2toolbase.UPT.Library.Misc import ConvertPath
+from edk2toolbase.UPT.Library.Misc import ConvertSpec
+from edk2toolbase.UPT.Library.Misc import GetRelativePath
+from edk2toolbase.UPT.Library.Misc import GetLocalValue
+from edk2toolbase.UPT.Library.CommentGenerating import GenHeaderCommentSection
+from edk2toolbase.UPT.Library.CommentGenerating import GenGenericCommentF
+from edk2toolbase.UPT.Library.CommentGenerating import _GetHelpStr
+from edk2toolbase.UPT.Library import GlobalData
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Logger import ToolError
+import edk2toolbase.UPT.Logger.Log as Logger
+from edk2toolbase.UPT.Library import DataType as DT
+from edk2toolbase.UPT.GenMetaFile import GenMetaFileMisc
+from edk2toolbase.UPT.Library.UniClassObject import FormatUniEntry
+from edk2toolbase.UPT.Library.StringUtils import GetUniFileName
 
 
 ## Transfer Module Object to Inf files

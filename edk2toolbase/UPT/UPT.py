@@ -28,17 +28,17 @@ from optparse import OptionParser
 from traceback import format_exc
 from platform import python_version
 
-from Logger import StringTable as ST
+from edk2toolbase.UPT.Logger import StringTable as ST
 import Logger.Log as Logger
-from Logger.StringTable import MSG_VERSION
-from Logger.StringTable import MSG_DESCRIPTION
-from Logger.StringTable import MSG_USAGE
-from Logger.ToolError import FILE_NOT_FOUND
-from Logger.ToolError import OPTION_MISSING
-from Logger.ToolError import FILE_TYPE_MISMATCH
-from Logger.ToolError import OPTION_CONFLICT
-from Logger.ToolError import FatalError
-from Logger.ToolError import UPT_ALREADY_INSTALLED_ERROR
+from edk2toolbase.UPT.Logger.StringTable import MSG_VERSION
+from edk2toolbase.UPT.Logger.StringTable import MSG_DESCRIPTION
+from edk2toolbase.UPT.Logger.StringTable import MSG_USAGE
+from edk2toolbase.UPT.Logger.ToolError import FILE_NOT_FOUND
+from edk2toolbase.UPT.Logger.ToolError import OPTION_MISSING
+from edk2toolbase.UPT.Logger.ToolError import FILE_TYPE_MISMATCH
+from edk2toolbase.UPT.Logger.ToolError import OPTION_CONFLICT
+from edk2toolbase.UPT.Logger.ToolError import FatalError
+from edk2toolbase.UPT.Logger.ToolError import UPT_ALREADY_INSTALLED_ERROR
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 
 import MkPkg
@@ -47,7 +47,7 @@ import RmPkg
 import InventoryWs
 import ReplacePkg
 import TestInstall
-from Library.Misc import GetWorkspace
+from edk2toolbase.UPT.Library.Misc import GetWorkspace
 from Library import GlobalData
 from Core.IpiDb import IpiDatabase
 from BuildVersion import gBUILD_VERSION

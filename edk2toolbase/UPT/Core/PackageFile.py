@@ -19,17 +19,17 @@ import zipfile
 import tempfile
 import platform
 
-from Logger.ToolError import FILE_OPEN_FAILURE
-from Logger.ToolError import FILE_CHECKSUM_FAILURE
-from Logger.ToolError import FILE_NOT_FOUND
-from Logger.ToolError import FILE_DECOMPRESS_FAILURE
-from Logger.ToolError import FILE_UNKNOWN_ERROR
-from Logger.ToolError import FILE_WRITE_FAILURE
-from Logger.ToolError import FILE_COMPRESS_FAILURE
+from edk2toolbase.UPT.Logger.ToolError import FILE_OPEN_FAILURE
+from edk2toolbase.UPT.Logger.ToolError import FILE_CHECKSUM_FAILURE
+from edk2toolbase.UPT.Logger.ToolError import FILE_NOT_FOUND
+from edk2toolbase.UPT.Logger.ToolError import FILE_DECOMPRESS_FAILURE
+from edk2toolbase.UPT.Logger.ToolError import FILE_UNKNOWN_ERROR
+from edk2toolbase.UPT.Logger.ToolError import FILE_WRITE_FAILURE
+from edk2toolbase.UPT.Logger.ToolError import FILE_COMPRESS_FAILURE
 import Logger.Log as Logger
-from Logger import StringTable as ST
-from Library.Misc import CreateDirectory
-from Library.Misc import RemoveDirectory
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Library.Misc import CreateDirectory
+from edk2toolbase.UPT.Library.Misc import RemoveDirectory
 from Core.FileHook import __FileHookOpen__
 from edk2toolbase.Common.MultipleWorkspace import MultipleWorkspace as mws
 

@@ -10,15 +10,15 @@
 InfLibraryClassesObject
 '''
 
-from Logger import StringTable as ST
-from Logger import ToolError
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Logger import ToolError
 import Logger.Log as Logger
 from Library import GlobalData
 
-from Library.Misc import Sdict
+from edk2toolbase.UPT.Library.Misc import Sdict
 from Object.Parser.InfCommonObject import CurrentLine
-from Library.ExpressionValidate import IsValidFeatureFlagExp
-from Library.ParserValidate import IsValidLibName
+from edk2toolbase.UPT.Library.ExpressionValidate import IsValidFeatureFlagExp
+from edk2toolbase.UPT.Library.ParserValidate import IsValidLibName
 
 ## GetArchModuleType
 #

@@ -15,12 +15,12 @@ InfPomAlignmentMisc
 #
 import Logger.Log as Logger
 from Library import DataType as DT
-from Library.Misc import ConvertArchList
+from edk2toolbase.UPT.Library.Misc import ConvertArchList
 from Object.POM.ModuleObject import BinaryFileObject
 from Object.POM import CommonObject
-from Library.StringUtils import FORMAT_INVALID
-from Library.Misc import CheckGuidRegFormat
-from Logger import StringTable as ST
+from edk2toolbase.UPT.Library.StringUtils import FORMAT_INVALID
+from edk2toolbase.UPT.Library.Misc import CheckGuidRegFormat
+from edk2toolbase.UPT.Logger import StringTable as ST
 
 
 ## GenModuleHeaderUserExt

@@ -16,14 +16,14 @@ import re
 
 from Library import DataType as DT
 from Library import GlobalData
-from Library.Parsing import MacroParser
-from Library.Misc import GetSplitValueList
-from Library.ParserValidate import IsValidArch
+from edk2toolbase.UPT.Library.Parsing import MacroParser
+from edk2toolbase.UPT.Library.Misc import GetSplitValueList
+from edk2toolbase.UPT.Library.ParserValidate import IsValidArch
 from Object.Parser.InfCommonObject import InfLineCommentObject
 from Object.Parser.InfDefineObject import InfDefMember
 from Parser.InfParserMisc import InfExpandMacro
 from Object.Parser.InfMisc import ErrorInInf
-from Logger import StringTable as ST
+from edk2toolbase.UPT.Logger import StringTable as ST
 from Parser.InfParserMisc import InfParserSectionRoot
 
 ## __GetValidateArchList

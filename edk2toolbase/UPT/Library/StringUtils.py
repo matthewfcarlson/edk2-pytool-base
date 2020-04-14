@@ -14,11 +14,11 @@ StringUtils
 #
 import re
 import os.path
-import Logger.Log as Logger
-import Library.DataType as DataType
-from Logger.ToolError import FORMAT_INVALID
-from Logger.ToolError import PARSER_ERROR
-from Logger import StringTable as ST
+import edk2toolbase.UPT.Logger.Log as Logger
+import edk2toolbase.UPT.Library.DataType as DataType
+from edk2toolbase.UPT.Logger.ToolError import FORMAT_INVALID
+from edk2toolbase.UPT.Logger.ToolError import PARSER_ERROR
+from edk2toolbase.UPT.Logger import StringTable as ST
 
 #
 # Regular expression for matching macro used in DSC/DEC/INF file inclusion

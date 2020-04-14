@@ -16,16 +16,16 @@ from copy import deepcopy
 from Library import DataType as DT
 from Library import GlobalData
 import Logger.Log as Logger
-from Logger import ToolError
-from Logger import StringTable as ST
-from Library.Misc import Sdict
+from edk2toolbase.UPT.Logger import ToolError
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Library.Misc import Sdict
 
 from Object.Parser.InfCommonObject import InfSectionCommonDef
 from Object.Parser.InfCommonObject import CurrentLine
-from Library.Misc import ConvPathFromAbsToRel
-from Library.ExpressionValidate import IsValidFeatureFlagExp
-from Library.Misc import ValidFile
-from Library.ParserValidate import IsValidPath
+from edk2toolbase.UPT.Library.Misc import ConvPathFromAbsToRel
+from edk2toolbase.UPT.Library.ExpressionValidate import IsValidFeatureFlagExp
+from edk2toolbase.UPT.Library.Misc import ValidFile
+from edk2toolbase.UPT.Library.ParserValidate import IsValidPath
 
 
 class InfBianryItem():

@@ -19,10 +19,10 @@ import re
 from Library import DataType as DT
 
 
-from Library.StringUtils import gMACRO_PATTERN
-from Library.StringUtils import ReplaceMacro
+from edk2toolbase.UPT.Library.StringUtils import gMACRO_PATTERN
+from edk2toolbase.UPT.Library.StringUtils import ReplaceMacro
 from Object.Parser.InfMisc import ErrorInInf
-from Logger.StringTable import ERR_MARCO_DEFINITION_MISS_ERROR
+from edk2toolbase.UPT.Logger.StringTable import ERR_MARCO_DEFINITION_MISS_ERROR
 
 #
 # Global variable

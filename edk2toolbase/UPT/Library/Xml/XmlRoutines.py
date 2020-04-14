@@ -17,7 +17,7 @@ XmlRoutines
 import xml.dom.minidom
 import re
 import codecs
-from Logger.ToolError import PARSER_ERROR
+from edk2toolbase.UPT.Logger.ToolError import PARSER_ERROR
 import Logger.Log as Logger
 
 ## Create a element of XML

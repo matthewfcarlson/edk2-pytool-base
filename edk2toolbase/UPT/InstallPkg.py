@@ -26,21 +26,21 @@ from shutil import copyfile
 from traceback import format_exc
 from platform import python_version
 
-from Logger import StringTable as ST
-from Logger.ToolError import UNKNOWN_ERROR
-from Logger.ToolError import FILE_UNKNOWN_ERROR
-from Logger.ToolError import OPTION_MISSING
-from Logger.ToolError import UPT_ALREADY_INSTALLED_ERROR
-from Logger.ToolError import FatalError
-from Logger.ToolError import ABORT_ERROR
-from Logger.ToolError import CODE_ERROR
-from Logger.ToolError import FORMAT_INVALID
-from Logger.ToolError import FILE_TYPE_MISMATCH
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Logger.ToolError import UNKNOWN_ERROR
+from edk2toolbase.UPT.Logger.ToolError import FILE_UNKNOWN_ERROR
+from edk2toolbase.UPT.Logger.ToolError import OPTION_MISSING
+from edk2toolbase.UPT.Logger.ToolError import UPT_ALREADY_INSTALLED_ERROR
+from edk2toolbase.UPT.Logger.ToolError import FatalError
+from edk2toolbase.UPT.Logger.ToolError import ABORT_ERROR
+from edk2toolbase.UPT.Logger.ToolError import CODE_ERROR
+from edk2toolbase.UPT.Logger.ToolError import FORMAT_INVALID
+from edk2toolbase.UPT.Logger.ToolError import FILE_TYPE_MISMATCH
 import Logger.Log as Logger
 
-from Library.Misc import Sdict
-from Library.Misc import ConvertPath
-from Library.ParserValidate import IsValidInstallPath
+from edk2toolbase.UPT.Library.Misc import Sdict
+from edk2toolbase.UPT.Library.Misc import ConvertPath
+from edk2toolbase.UPT.Library.ParserValidate import IsValidInstallPath
 from Xml.XmlParser import DistributionPackageXml
 from GenMetaFile.GenDecFile import PackageToDec
 from GenMetaFile.GenInfFile import ModuleToInf

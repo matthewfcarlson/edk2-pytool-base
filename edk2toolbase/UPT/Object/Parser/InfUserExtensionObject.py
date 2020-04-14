@@ -10,12 +10,12 @@
 InfUserExtensionsObject
 '''
 
-from Logger import StringTable as ST
-from Logger import ToolError
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Logger import ToolError
 import Logger.Log as Logger
 from Library import GlobalData
 
-from Library.Misc import Sdict
+from edk2toolbase.UPT.Library.Misc import Sdict
 
 class InfUserExtensionItem():
     def __init__(self,

@@ -15,14 +15,14 @@ InfBuildOptionSectionParser
 from Library import DataType as DT
 from Library import GlobalData
 import Logger.Log as Logger
-from Logger import StringTable as ST
-from Logger.ToolError import FORMAT_INVALID
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Logger.ToolError import FORMAT_INVALID
 from Parser.InfParserMisc import InfExpandMacro
-from Library.Misc import GetSplitValueList
+from edk2toolbase.UPT.Library.Misc import GetSplitValueList
 from Parser.InfParserMisc import IsAsBuildOptionInfo
-from Library.Misc import GetHelpStringByRemoveHashKey
-from Library.ParserValidate import IsValidFamily
-from Library.ParserValidate import IsValidBuildOptionName
+from edk2toolbase.UPT.Library.Misc import GetHelpStringByRemoveHashKey
+from edk2toolbase.UPT.Library.ParserValidate import IsValidFamily
+from edk2toolbase.UPT.Library.ParserValidate import IsValidBuildOptionName
 from Parser.InfParserMisc import InfParserSectionRoot
 
 class InfBuildOptionSectionParser(InfParserSectionRoot):

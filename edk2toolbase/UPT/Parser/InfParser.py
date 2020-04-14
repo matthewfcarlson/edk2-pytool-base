@@ -17,21 +17,21 @@ import re
 import os
 from copy import deepcopy
 
-from Library.StringUtils import GetSplitValueList
-from Library.StringUtils import ConvertSpecialChar
-from Library.Misc import ProcessLineExtender
-from Library.Misc import ProcessEdkComment
-from Library.Parsing import NormPath
-from Library.ParserValidate import IsValidInfMoudleTypeList
-from Library.ParserValidate import IsValidArch
+from edk2toolbase.UPT.Library.StringUtils import GetSplitValueList
+from edk2toolbase.UPT.Library.StringUtils import ConvertSpecialChar
+from edk2toolbase.UPT.Library.Misc import ProcessLineExtender
+from edk2toolbase.UPT.Library.Misc import ProcessEdkComment
+from edk2toolbase.UPT.Library.Parsing import NormPath
+from edk2toolbase.UPT.Library.ParserValidate import IsValidInfMoudleTypeList
+from edk2toolbase.UPT.Library.ParserValidate import IsValidArch
 from Library import DataType as DT
 from Library import GlobalData
 
 import Logger.Log as Logger
-from Logger import StringTable as ST
-from Logger.ToolError import FORMAT_INVALID
-from Logger.ToolError import FILE_READ_FAILURE
-from Logger.ToolError import PARSER_ERROR
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Logger.ToolError import FORMAT_INVALID
+from edk2toolbase.UPT.Logger.ToolError import FILE_READ_FAILURE
+from edk2toolbase.UPT.Logger.ToolError import PARSER_ERROR
 
 from Object.Parser.InfCommonObject import InfSectionCommonDef
 from Parser.InfSectionParser import InfSectionParser

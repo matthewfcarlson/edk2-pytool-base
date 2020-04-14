@@ -15,15 +15,15 @@ InfSectionParser
 from copy import deepcopy
 import re
 
-from Library.StringUtils import GetSplitValueList
-from Library.CommentParsing import ParseHeaderCommentSection
-from Library.CommentParsing import ParseComment
+from edk2toolbase.UPT.Library.StringUtils import GetSplitValueList
+from edk2toolbase.UPT.Library.CommentParsing import ParseHeaderCommentSection
+from edk2toolbase.UPT.Library.CommentParsing import ParseComment
 
 from Library import DataType as DT
 
 import Logger.Log as Logger
-from Logger import StringTable as ST
-from Logger.ToolError import FORMAT_INVALID
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Logger.ToolError import FORMAT_INVALID
 
 from Object.Parser.InfDefineObject import InfDefObject
 from Object.Parser.InfBuildOptionObject import InfBuildOptionsObject

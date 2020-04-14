@@ -14,15 +14,15 @@ import os
 import re
 from Library import GlobalData
 import Logger.Log as Logger
-from Logger import StringTable as ST
-from Logger import ToolError
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Logger import ToolError
 
-from Library.StringUtils import GetSplitValueList
-from Library.Misc import GetHelpStringByRemoveHashKey
-from Library.Misc import ValidFile
-from Library.Misc import ProcessLineExtender
-from Library.ParserValidate import IsValidPath
-from Library.Parsing import MacroParser
+from edk2toolbase.UPT.Library.StringUtils import GetSplitValueList
+from edk2toolbase.UPT.Library.Misc import GetHelpStringByRemoveHashKey
+from edk2toolbase.UPT.Library.Misc import ValidFile
+from edk2toolbase.UPT.Library.Misc import ProcessLineExtender
+from edk2toolbase.UPT.Library.ParserValidate import IsValidPath
+from edk2toolbase.UPT.Library.Parsing import MacroParser
 from Parser.InfParserMisc import InfExpandMacro
 
 from Library import DataType as DT

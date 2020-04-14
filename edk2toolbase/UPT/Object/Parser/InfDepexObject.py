@@ -13,11 +13,11 @@ InfDepexObject
 from Library import DataType as DT
 from Library import GlobalData
 import Logger.Log as Logger
-from Logger import ToolError
-from Logger import StringTable as ST
+from edk2toolbase.UPT.Logger import ToolError
+from edk2toolbase.UPT.Logger import StringTable as ST
 
 from Object.Parser.InfCommonObject import InfSectionCommonDef
-from Library.ParserValidate import IsValidArch
+from edk2toolbase.UPT.Library.ParserValidate import IsValidArch
 
 class InfDepexContentItem():
     def __init__(self):

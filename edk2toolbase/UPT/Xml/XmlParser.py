@@ -15,25 +15,25 @@ XmlParser
 #
 import re
 
-from Library.Xml.XmlRoutines import XmlNode
-from Library.Xml.XmlRoutines import CreateXmlElement
-from Library.Xml.XmlRoutines import XmlList
-from Library.Xml.XmlRoutines import XmlParseFile
+from edk2toolbase.UPT.Library.Xml.XmlRoutines import XmlNode
+from edk2toolbase.UPT.Library.Xml.XmlRoutines import CreateXmlElement
+from edk2toolbase.UPT.Library.Xml.XmlRoutines import XmlList
+from edk2toolbase.UPT.Library.Xml.XmlRoutines import XmlParseFile
 from Core.DistributionPackageClass import DistributionPackageClass
 from Object.POM.ModuleObject import DepexObject
-from Library.ParserValidate import IsValidInfMoudleType
-from Library.ParserValidate import IsValidInstallPath
-from Library.Misc import IsEqualList
-from Library.Misc import Sdict
+from edk2toolbase.UPT.Library.ParserValidate import IsValidInfMoudleType
+from edk2toolbase.UPT.Library.ParserValidate import IsValidInstallPath
+from edk2toolbase.UPT.Library.Misc import IsEqualList
+from edk2toolbase.UPT.Library.Misc import Sdict
 
-from Logger.StringTable import ERR_XML_INVALID_VARIABLENAME
-from Logger.StringTable import ERR_XML_INVALID_LIB_SUPMODLIST
-from Logger.StringTable import ERR_XML_INVALID_EXTERN_SUPARCHLIST
-from Logger.StringTable import ERR_XML_INVALID_EXTERN_SUPMODLIST
-from Logger.StringTable import ERR_XML_INVALID_EXTERN_SUPMODLIST_NOT_LIB
-from Logger.StringTable import ERR_FILE_NAME_INVALIDE
-from Logger.ToolError import PARSER_ERROR
-from Logger.ToolError import FORMAT_INVALID
+from edk2toolbase.UPT.Logger.StringTable import ERR_XML_INVALID_VARIABLENAME
+from edk2toolbase.UPT.Logger.StringTable import ERR_XML_INVALID_LIB_SUPMODLIST
+from edk2toolbase.UPT.Logger.StringTable import ERR_XML_INVALID_EXTERN_SUPARCHLIST
+from edk2toolbase.UPT.Logger.StringTable import ERR_XML_INVALID_EXTERN_SUPMODLIST
+from edk2toolbase.UPT.Logger.StringTable import ERR_XML_INVALID_EXTERN_SUPMODLIST_NOT_LIB
+from edk2toolbase.UPT.Logger.StringTable import ERR_FILE_NAME_INVALIDE
+from edk2toolbase.UPT.Logger.ToolError import PARSER_ERROR
+from edk2toolbase.UPT.Logger.ToolError import FORMAT_INVALID
 
 from Xml.CommonXml import DistributionPackageHeaderXml
 from Xml.CommonXml import MiscellaneousFileXml

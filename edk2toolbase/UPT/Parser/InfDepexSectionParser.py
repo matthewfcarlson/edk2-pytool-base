@@ -13,11 +13,11 @@ InfDepexSectionParser
 #
 import re
 import Logger.Log as Logger
-from Logger import StringTable as ST
-from Logger.ToolError import FORMAT_INVALID
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Logger.ToolError import FORMAT_INVALID
 from Parser.InfParserMisc import InfExpandMacro
 from Library import DataType as DT
-from Library.Misc import GetSplitValueList
+from edk2toolbase.UPT.Library.Misc import GetSplitValueList
 from Parser.InfParserMisc import InfParserSectionRoot
 
 class InfDepexSectionParser(InfParserSectionRoot):

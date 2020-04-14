@@ -13,27 +13,27 @@ InfDefineObject
 import os
 import re
 
-from Logger import StringTable as ST
-from Logger import ToolError
+from edk2toolbase.UPT.Logger import StringTable as ST
+from edk2toolbase.UPT.Logger import ToolError
 from Library import GlobalData
 from Library import DataType as DT
-from Library.StringUtils import GetSplitValueList
-from Library.Misc import CheckGuidRegFormat
-from Library.Misc import Sdict
-from Library.Misc import ConvPathFromAbsToRel
-from Library.Misc import ValidateUNIFilePath
-from Library.ExpressionValidate import IsValidFeatureFlagExp
-from Library.ParserValidate import IsValidWord
-from Library.ParserValidate import IsValidInfMoudleType
-from Library.ParserValidate import IsValidHex
-from Library.ParserValidate import IsValidHexVersion
-from Library.ParserValidate import IsValidDecVersion
-from Library.ParserValidate import IsValidCVariableName
-from Library.ParserValidate import IsValidBoolType
-from Library.ParserValidate import IsValidPath
-from Library.ParserValidate import IsValidFamily
-from Library.ParserValidate import IsValidIdentifier
-from Library.ParserValidate import IsValidDecVersionVal
+from edk2toolbase.UPT.Library.StringUtils import GetSplitValueList
+from edk2toolbase.UPT.Library.Misc import CheckGuidRegFormat
+from edk2toolbase.UPT.Library.Misc import Sdict
+from edk2toolbase.UPT.Library.Misc import ConvPathFromAbsToRel
+from edk2toolbase.UPT.Library.Misc import ValidateUNIFilePath
+from edk2toolbase.UPT.Library.ExpressionValidate import IsValidFeatureFlagExp
+from edk2toolbase.UPT.Library.ParserValidate import IsValidWord
+from edk2toolbase.UPT.Library.ParserValidate import IsValidInfMoudleType
+from edk2toolbase.UPT.Library.ParserValidate import IsValidHex
+from edk2toolbase.UPT.Library.ParserValidate import IsValidHexVersion
+from edk2toolbase.UPT.Library.ParserValidate import IsValidDecVersion
+from edk2toolbase.UPT.Library.ParserValidate import IsValidCVariableName
+from edk2toolbase.UPT.Library.ParserValidate import IsValidBoolType
+from edk2toolbase.UPT.Library.ParserValidate import IsValidPath
+from edk2toolbase.UPT.Library.ParserValidate import IsValidFamily
+from edk2toolbase.UPT.Library.ParserValidate import IsValidIdentifier
+from edk2toolbase.UPT.Library.ParserValidate import IsValidDecVersionVal
 from Object.Parser.InfCommonObject import InfLineCommentObject
 from Object.Parser.InfCommonObject import CurrentLine
 from Object.Parser.InfCommonObject import InfSectionCommonDef
