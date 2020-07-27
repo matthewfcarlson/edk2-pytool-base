@@ -15,16 +15,16 @@ from shutil import rmtree
 from traceback import format_exc
 from platform import python_version
 from sys import platform
-from Logger import StringTable as ST
-from Logger.ToolError import UNKNOWN_ERROR
-from Logger.ToolError import FatalError
-from Logger.ToolError import ABORT_ERROR
-from Logger.ToolError import CODE_ERROR
-from Logger.ToolError import UPT_ALREADY_INSTALLED_ERROR
-import Logger.Log as Logger
+from edk2basetools.Logger import StringTable as ST
+from edk2basetools.Logger.ToolError import UNKNOWN_ERROR
+from edk2basetools.Logger.ToolError import FatalError
+from edk2basetools.Logger.ToolError import ABORT_ERROR
+from edk2basetools.Logger.ToolError import CODE_ERROR
+from edk2basetools.Logger.ToolError import UPT_ALREADY_INSTALLED_ERROR
+import edk2basetools.Logger.Log as Logger
 
 from Core.DependencyRules import DependencyRules
-from Library import GlobalData
+from edk2basetools.Library import GlobalData
 from InstallPkg import UnZipDp
 from InstallPkg import InstallDp
 from RmPkg import GetInstalledDpInfo

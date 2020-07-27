@@ -11,8 +11,8 @@ import os
 from Object.Parser.InfCommonObject import CurrentLine
 from Object.Parser.InfCommonObject import InfLineCommentObject
 from Object.Parser.InfBinaryObject import InfBinariesObject
-import Logger.Log as Logger
-import Library.GlobalData as Global
+import edk2basetools.Logger.Log as Logger
+import edk2basetools.Library.GlobalData as Global
 ##
 # Test Common binary item
 #

@@ -13,19 +13,19 @@ InfBinaryObject
 import os
 
 from copy import deepcopy
-from Library import DataType as DT
-from Library import GlobalData
-import Logger.Log as Logger
-from Logger import ToolError
-from Logger import StringTable as ST
-from Library.Misc import Sdict
+from edk2basetools.Library import DataType as DT
+from edk2basetools.Library import GlobalData
+import edk2basetools.Logger.Log as Logger
+from edk2basetools.Logger import ToolError
+from edk2basetools.Logger import StringTable as ST
+from edk2basetools.Library.Misc import Sdict
 
 from Object.Parser.InfCommonObject import InfSectionCommonDef
 from Object.Parser.InfCommonObject import CurrentLine
-from Library.Misc import ConvPathFromAbsToRel
-from Library.ExpressionValidate import IsValidFeatureFlagExp
-from Library.Misc import ValidFile
-from Library.ParserValidate import IsValidPath
+from edk2basetools.Library.Misc import ConvPathFromAbsToRel
+from edk2basetools.Library.ExpressionValidate import IsValidFeatureFlagExp
+from edk2basetools.Library.Misc import ValidFile
+from edk2basetools.Library.ParserValidate import IsValidPath
 
 
 class InfBianryItem():

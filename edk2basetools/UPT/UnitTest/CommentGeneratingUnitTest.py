@@ -8,13 +8,13 @@
 import os
 import unittest
 
-import Logger.Log as Logger
+import edk2basetools.Logger.Log as Logger
 from GenMetaFile.GenInfFile import GenGuidSections
 from GenMetaFile.GenInfFile import GenProtocolPPiSections
 from GenMetaFile.GenInfFile import GenPcdSections
 from GenMetaFile.GenInfFile import GenSpecialSections
-from Library.CommentGenerating import GenGenericCommentF
-from Library.CommentGenerating import _GetHelpStr
+from edk2basetools.Library.CommentGenerating import GenGenericCommentF
+from edk2basetools.Library.CommentGenerating import _GetHelpStr
 from Object.POM.CommonObject import TextObject
 from Object.POM.CommonObject import GuidObject
 from Object.POM.CommonObject import ProtocolObject
@@ -22,14 +22,14 @@ from Object.POM.CommonObject import PpiObject
 from Object.POM.CommonObject import PcdObject
 from Object.POM.ModuleObject import HobObject
 
-from Library.StringUtils import GetSplitValueList
-from Library.DataType import TAB_SPACE_SPLIT
-from Library.DataType import TAB_LANGUAGE_EN_US
-from Library.DataType import TAB_LANGUAGE_ENG
-from Library.DataType import ITEM_UNDEFINED
-from Library.DataType import TAB_INF_FEATURE_PCD
-from Library import GlobalData
-from Library.Misc import CreateDirectory
+from edk2basetools.Library.StringUtils import GetSplitValueList
+from edk2basetools.Library.DataType import TAB_SPACE_SPLIT
+from edk2basetools.Library.DataType import TAB_LANGUAGE_EN_US
+from edk2basetools.Library.DataType import TAB_LANGUAGE_ENG
+from edk2basetools.Library.DataType import ITEM_UNDEFINED
+from edk2basetools.Library.DataType import TAB_INF_FEATURE_PCD
+from edk2basetools.Library import GlobalData
+from edk2basetools.Library.Misc import CreateDirectory
 
 #
 # Test _GetHelpStr

@@ -26,21 +26,21 @@ from shutil import copyfile
 from traceback import format_exc
 from platform import python_version
 
-from Logger import StringTable as ST
-from Logger.ToolError import UNKNOWN_ERROR
-from Logger.ToolError import FILE_UNKNOWN_ERROR
-from Logger.ToolError import OPTION_MISSING
-from Logger.ToolError import UPT_ALREADY_INSTALLED_ERROR
-from Logger.ToolError import FatalError
-from Logger.ToolError import ABORT_ERROR
-from Logger.ToolError import CODE_ERROR
-from Logger.ToolError import FORMAT_INVALID
-from Logger.ToolError import FILE_TYPE_MISMATCH
-import Logger.Log as Logger
+from edk2basetools.Logger import StringTable as ST
+from edk2basetools.Logger.ToolError import UNKNOWN_ERROR
+from edk2basetools.Logger.ToolError import FILE_UNKNOWN_ERROR
+from edk2basetools.Logger.ToolError import OPTION_MISSING
+from edk2basetools.Logger.ToolError import UPT_ALREADY_INSTALLED_ERROR
+from edk2basetools.Logger.ToolError import FatalError
+from edk2basetools.Logger.ToolError import ABORT_ERROR
+from edk2basetools.Logger.ToolError import CODE_ERROR
+from edk2basetools.Logger.ToolError import FORMAT_INVALID
+from edk2basetools.Logger.ToolError import FILE_TYPE_MISMATCH
+import edk2basetools.Logger.Log as Logger
 
-from Library.Misc import Sdict
-from Library.Misc import ConvertPath
-from Library.ParserValidate import IsValidInstallPath
+from edk2basetools.Library.Misc import Sdict
+from edk2basetools.Library.Misc import ConvertPath
+from edk2basetools.Library.ParserValidate import IsValidInstallPath
 from Xml.XmlParser import DistributionPackageXml
 from GenMetaFile.GenDecFile import PackageToDec
 from GenMetaFile.GenInfFile import ModuleToInf
@@ -49,7 +49,7 @@ from Core.PackageFile import FILE_NOT_FOUND
 from Core.PackageFile import FILE_CHECKSUM_FAILURE
 from Core.PackageFile import CreateDirectory
 from Core.DependencyRules import DependencyRules
-from Library import GlobalData
+from edk2basetools.Library import GlobalData
 
 ## InstallNewPackage
 #

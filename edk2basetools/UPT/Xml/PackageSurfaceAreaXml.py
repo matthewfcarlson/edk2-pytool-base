@@ -11,11 +11,11 @@ PackageSurfaceAreaXml
 '''
 from xml.dom import minidom
 
-from Library.StringUtils import GetStringOfList
-from Library.Xml.XmlRoutines import XmlElement
-from Library.Xml.XmlRoutines import XmlNode
-from Library.Xml.XmlRoutines import XmlList
-from Library.Xml.XmlRoutines import CreateXmlElement
+from edk2basetools.Library.StringUtils import GetStringOfList
+from edk2basetools.Library.Xml.XmlRoutines import XmlElement
+from edk2basetools.Library.Xml.XmlRoutines import XmlNode
+from edk2basetools.Library.Xml.XmlRoutines import XmlList
+from edk2basetools.Library.Xml.XmlRoutines import CreateXmlElement
 from Object.POM.CommonObject import IncludeObject
 from Object.POM.CommonObject import TextObject
 from Object.POM.PackageObject import PackageObject

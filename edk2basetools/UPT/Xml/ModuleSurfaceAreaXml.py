@@ -11,15 +11,15 @@ ModuleSurfaceAreaXml
 '''
 from xml.dom import minidom
 
-from Library.StringUtils import ConvertNEToNOTEQ
-from Library.StringUtils import ConvertNOTEQToNE
-from Library.StringUtils import GetStringOfList
-from Library.StringUtils import IsMatchArch
-from Library.Xml.XmlRoutines import XmlElement
-from Library.Xml.XmlRoutines import XmlAttribute
-from Library.Xml.XmlRoutines import XmlNode
-from Library.Xml.XmlRoutines import XmlList
-from Library.Xml.XmlRoutines import CreateXmlElement
+from edk2basetools.Library.StringUtils import ConvertNEToNOTEQ
+from edk2basetools.Library.StringUtils import ConvertNOTEQToNE
+from edk2basetools.Library.StringUtils import GetStringOfList
+from edk2basetools.Library.StringUtils import IsMatchArch
+from edk2basetools.Library.Xml.XmlRoutines import XmlElement
+from edk2basetools.Library.Xml.XmlRoutines import XmlAttribute
+from edk2basetools.Library.Xml.XmlRoutines import XmlNode
+from edk2basetools.Library.Xml.XmlRoutines import XmlList
+from edk2basetools.Library.Xml.XmlRoutines import CreateXmlElement
 from Object.POM.CommonObject import GuidVersionObject
 from Object.POM.ModuleObject import BootModeObject
 from Object.POM.ModuleObject import DepexObject
@@ -45,8 +45,8 @@ from Xml.GuidProtocolPpiXml import ProtocolXml
 from Xml.GuidProtocolPpiXml import PpiXml
 from Xml.PcdXml import PcdEntryXml
 from Xml.XmlParserMisc import GetHelpTextList
-from Library import GlobalData
-from Library.Misc import GetSplitValueList
+from edk2basetools.Library import GlobalData
+from edk2basetools.Library.Misc import GetSplitValueList
 
 ##   BinaryFileXml
 #

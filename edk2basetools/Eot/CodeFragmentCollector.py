@@ -12,7 +12,7 @@
 from __future__ import print_function
 from __future__ import absolute_import
 import re
-import Common.LongFilePathOs as os
+import edk2basetools.Common.LongFilePathOs as os
 import sys
 
 if sys.version_info.major == 3:

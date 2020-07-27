@@ -10,11 +10,11 @@
 # Import Modules
 #
 from __future__ import absolute_import
-from .GenFdsGlobalVariable import GenFdsGlobalVariable
+from edk2basetools.GenFdsGlobalVariable import GenFdsGlobalVariable
 from io import BytesIO
 from struct import pack
 import os
-from Common.Misc import SaveFileOnChange
+from edk2basetools.Common.Misc import SaveFileOnChange
 import uuid
 
 ## base class for capsule data

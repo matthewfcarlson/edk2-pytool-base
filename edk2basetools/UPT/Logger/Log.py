@@ -22,11 +22,11 @@ from logging import StreamHandler
 from logging import FileHandler
 from traceback import extract_stack
 
-from Logger.ToolError import FatalError
-from Logger.ToolError import WARNING_AS_ERROR
-from Logger.ToolError import gERROR_MESSAGE
-from Logger.ToolError import UNKNOWN_ERROR
-from Library import GlobalData
+from edk2basetools.Logger.ToolError import FatalError
+from edk2basetools.Logger.ToolError import WARNING_AS_ERROR
+from edk2basetools.Logger.ToolError import gERROR_MESSAGE
+from edk2basetools.Logger.ToolError import UNKNOWN_ERROR
+from edk2basetools.Library import GlobalData
 
 #
 # Log level constants

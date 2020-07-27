@@ -10,15 +10,15 @@
 InfPpiObject
 '''
 
-from Library.ParserValidate import IsValidCVariableName
-from Library.CommentParsing import ParseComment
-from Library.ExpressionValidate import IsValidFeatureFlagExp
+from edk2basetools.Library.ParserValidate import IsValidCVariableName
+from edk2basetools.Library.CommentParsing import ParseComment
+from edk2basetools.Library.ExpressionValidate import IsValidFeatureFlagExp
 
-from Library.Misc import Sdict
-from Library import DataType as DT
-import Logger.Log as Logger
-from Logger import ToolError
-from Logger import StringTable as ST
+from edk2basetools.Library.Misc import Sdict
+from edk2basetools.Library import DataType as DT
+import edk2basetools.Logger.Log as Logger
+from edk2basetools.Logger import ToolError
+from edk2basetools.Logger import StringTable as ST
 
 def ParsePpiComment(CommentsList, InfPpiItemObj):
     PreNotify = None

@@ -26,25 +26,25 @@ from time import strftime
 from time import localtime
 from uuid import uuid4
 
-from Logger import StringTable as ST
-from Logger.ToolError import OPTION_UNKNOWN_ERROR
-from Logger.ToolError import OPTION_VALUE_INVALID
-from Logger.ToolError import ABORT_ERROR
-from Logger.ToolError import UPT_REPKG_ERROR
-from Logger.ToolError import CODE_ERROR
-from Logger.ToolError import FatalError
-from Logger.ToolError import FILE_NOT_FOUND
-import Logger.Log as Logger
+from edk2basetools.Logger import StringTable as ST
+from edk2basetools.Logger.ToolError import OPTION_UNKNOWN_ERROR
+from edk2basetools.Logger.ToolError import OPTION_VALUE_INVALID
+from edk2basetools.Logger.ToolError import ABORT_ERROR
+from edk2basetools.Logger.ToolError import UPT_REPKG_ERROR
+from edk2basetools.Logger.ToolError import CODE_ERROR
+from edk2basetools.Logger.ToolError import FatalError
+from edk2basetools.Logger.ToolError import FILE_NOT_FOUND
+import edk2basetools.Logger.Log as Logger
 
 from Xml.XmlParser import DistributionPackageXml
 from Xml.IniToXml import IniToXml
 
-from Library import GlobalData
-from Library.ParserValidate import IsValidPath
+from edk2basetools.Library import GlobalData
+from edk2basetools.Library.ParserValidate import IsValidPath
 
 from Core.DistributionPackageClass import DistributionPackageClass
 from Core.PackageFile import PackageFile
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2basetools.Common.MultipleWorkspace import MultipleWorkspace as mws
 
 ## CheckForExistingDp
 #

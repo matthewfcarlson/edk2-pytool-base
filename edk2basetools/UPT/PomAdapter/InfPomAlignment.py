@@ -12,24 +12,24 @@ InfPomAlignment
 # Import modules
 #
 import os.path
-from Logger import StringTable as ST
-import Logger.Log as Logger
-from Library.StringUtils import FORMAT_INVALID
-from Library.StringUtils import PARSER_ERROR
-from Library.StringUtils import NormPath
-from Library.StringUtils import GetSplitValueList
-from Library.Misc import ConvertVersionToDecimal
-from Library.Misc import GetHelpStringByRemoveHashKey
-from Library.Misc import ConvertArchList
-from Library.Misc import GetRelativePath
-from Library.Misc import PathClass
-from Library.Parsing import GetPkgInfoFromDec
-from Library.UniClassObject import UniFileClassObject
-from Library.UniClassObject import ConvertSpecialUnicodes
-from Library.UniClassObject import GetLanguageCode1766
-from Library import DataType as DT
-from Library import GlobalData
-from Library.ParserValidate import IsValidPath
+from edk2basetools.Logger import StringTable as ST
+import edk2basetools.Logger.Log as Logger
+from edk2basetools.Library.StringUtils import FORMAT_INVALID
+from edk2basetools.Library.StringUtils import PARSER_ERROR
+from edk2basetools.Library.StringUtils import NormPath
+from edk2basetools.Library.StringUtils import GetSplitValueList
+from edk2basetools.Library.Misc import ConvertVersionToDecimal
+from edk2basetools.Library.Misc import GetHelpStringByRemoveHashKey
+from edk2basetools.Library.Misc import ConvertArchList
+from edk2basetools.Library.Misc import GetRelativePath
+from edk2basetools.Library.Misc import PathClass
+from edk2basetools.Library.Parsing import GetPkgInfoFromDec
+from edk2basetools.Library.UniClassObject import UniFileClassObject
+from edk2basetools.Library.UniClassObject import ConvertSpecialUnicodes
+from edk2basetools.Library.UniClassObject import GetLanguageCode1766
+from edk2basetools.Library import DataType as DT
+from edk2basetools.Library import GlobalData
+from edk2basetools.Library.ParserValidate import IsValidPath
 from Object.POM import CommonObject
 from Object.POM.ModuleObject import ModuleObject
 from Object.POM.ModuleObject import ExternObject
@@ -45,7 +45,7 @@ from PomAdapter.InfPomAlignmentMisc import GenModuleHeaderUserExt
 from PomAdapter.InfPomAlignmentMisc import GenBinaryData
 from Parser import InfParser
 from PomAdapter.DecPomAlignment import DecPomAlignment
-from Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2basetools.Common.MultipleWorkspace import MultipleWorkspace as mws
 
 ## InfPomAlignment
 #

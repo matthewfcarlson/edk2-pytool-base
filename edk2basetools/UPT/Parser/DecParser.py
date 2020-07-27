@@ -9,21 +9,21 @@ DecParser
 '''
 ## Import modules
 #
-import Logger.Log as Logger
-from Logger.ToolError import FILE_PARSE_FAILURE
-from Logger.ToolError import FILE_OPEN_FAILURE
-from Logger import StringTable as ST
-from Logger.ToolError import FORMAT_INVALID
+import edk2basetools.Logger.Log as Logger
+from edk2basetools.Logger.ToolError import FILE_PARSE_FAILURE
+from edk2basetools.Logger.ToolError import FILE_OPEN_FAILURE
+from edk2basetools.Logger import StringTable as ST
+from edk2basetools.Logger.ToolError import FORMAT_INVALID
 
-import Library.DataType as DT
-from Library.ParserValidate import IsValidToken
-from Library.ParserValidate import IsValidPath
-from Library.ParserValidate import IsValidCFormatGuid
-from Library.ParserValidate import IsValidIdString
-from Library.ParserValidate import IsValidUserId
-from Library.ParserValidate import IsValidArch
-from Library.ParserValidate import IsValidWord
-from Library.ParserValidate import IsValidDecVersionVal
+import edk2basetools.Library.DataType as DT
+from edk2basetools.Library.ParserValidate import IsValidToken
+from edk2basetools.Library.ParserValidate import IsValidPath
+from edk2basetools.Library.ParserValidate import IsValidCFormatGuid
+from edk2basetools.Library.ParserValidate import IsValidIdString
+from edk2basetools.Library.ParserValidate import IsValidUserId
+from edk2basetools.Library.ParserValidate import IsValidArch
+from edk2basetools.Library.ParserValidate import IsValidWord
+from edk2basetools.Library.ParserValidate import IsValidDecVersionVal
 from Parser.DecParserMisc import TOOL_NAME
 from Parser.DecParserMisc import CleanString
 from Parser.DecParserMisc import IsValidPcdDatum
@@ -49,13 +49,13 @@ from Object.Parser.DecObject import DecUserExtensionObject
 from Object.Parser.DecObject import DecUserExtensionItemObject
 from Object.Parser.DecObject import DecPcdObject
 from Object.Parser.DecObject import DecPcdItemObject
-from Library.Misc import GuidStructureStringToGuidString
-from Library.Misc import CheckGuidRegFormat
-from Library.StringUtils import ReplaceMacro
-from Library.StringUtils import GetSplitValueList
-from Library.StringUtils import gMACRO_PATTERN
-from Library.StringUtils import ConvertSpecialChar
-from Library.CommentParsing import ParsePcdErrorCode
+from edk2basetools.Library.Misc import GuidStructureStringToGuidString
+from edk2basetools.Library.Misc import CheckGuidRegFormat
+from edk2basetools.Library.StringUtils import ReplaceMacro
+from edk2basetools.Library.StringUtils import GetSplitValueList
+from edk2basetools.Library.StringUtils import gMACRO_PATTERN
+from edk2basetools.Library.StringUtils import ConvertSpecialChar
+from edk2basetools.Library.CommentParsing import ParsePcdErrorCode
 
 ##
 # _DecBase class for parsing

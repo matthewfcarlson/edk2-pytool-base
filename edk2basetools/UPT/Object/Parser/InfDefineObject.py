@@ -13,27 +13,27 @@ InfDefineObject
 import os
 import re
 
-from Logger import StringTable as ST
-from Logger import ToolError
-from Library import GlobalData
-from Library import DataType as DT
-from Library.StringUtils import GetSplitValueList
-from Library.Misc import CheckGuidRegFormat
-from Library.Misc import Sdict
-from Library.Misc import ConvPathFromAbsToRel
-from Library.Misc import ValidateUNIFilePath
-from Library.ExpressionValidate import IsValidFeatureFlagExp
-from Library.ParserValidate import IsValidWord
-from Library.ParserValidate import IsValidInfMoudleType
-from Library.ParserValidate import IsValidHex
-from Library.ParserValidate import IsValidHexVersion
-from Library.ParserValidate import IsValidDecVersion
-from Library.ParserValidate import IsValidCVariableName
-from Library.ParserValidate import IsValidBoolType
-from Library.ParserValidate import IsValidPath
-from Library.ParserValidate import IsValidFamily
-from Library.ParserValidate import IsValidIdentifier
-from Library.ParserValidate import IsValidDecVersionVal
+from edk2basetools.Logger import StringTable as ST
+from edk2basetools.Logger import ToolError
+from edk2basetools.Library import GlobalData
+from edk2basetools.Library import DataType as DT
+from edk2basetools.Library.StringUtils import GetSplitValueList
+from edk2basetools.Library.Misc import CheckGuidRegFormat
+from edk2basetools.Library.Misc import Sdict
+from edk2basetools.Library.Misc import ConvPathFromAbsToRel
+from edk2basetools.Library.Misc import ValidateUNIFilePath
+from edk2basetools.Library.ExpressionValidate import IsValidFeatureFlagExp
+from edk2basetools.Library.ParserValidate import IsValidWord
+from edk2basetools.Library.ParserValidate import IsValidInfMoudleType
+from edk2basetools.Library.ParserValidate import IsValidHex
+from edk2basetools.Library.ParserValidate import IsValidHexVersion
+from edk2basetools.Library.ParserValidate import IsValidDecVersion
+from edk2basetools.Library.ParserValidate import IsValidCVariableName
+from edk2basetools.Library.ParserValidate import IsValidBoolType
+from edk2basetools.Library.ParserValidate import IsValidPath
+from edk2basetools.Library.ParserValidate import IsValidFamily
+from edk2basetools.Library.ParserValidate import IsValidIdentifier
+from edk2basetools.Library.ParserValidate import IsValidDecVersionVal
 from Object.Parser.InfCommonObject import InfLineCommentObject
 from Object.Parser.InfCommonObject import CurrentLine
 from Object.Parser.InfCommonObject import InfSectionCommonDef

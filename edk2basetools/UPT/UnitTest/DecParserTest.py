@@ -15,7 +15,7 @@ from Parser.DecParserMisc import \
 
 from Parser.DecParser import Dec
 
-from Library.ParserValidate import IsValidCFormatGuid
+from edk2basetools.Library.ParserValidate import IsValidCFormatGuid
 
 #
 # Test tool function

@@ -9,14 +9,14 @@
 '''
 GuidProtocolPpiXml
 '''
-from Library.StringUtils import ConvertNEToNOTEQ
-from Library.StringUtils import ConvertNOTEQToNE
-from Library.StringUtils import GetStringOfList
-from Library.Xml.XmlRoutines import XmlElement
-from Library.Xml.XmlRoutines import XmlAttribute
-from Library.Xml.XmlRoutines import XmlNode
-from Library.Xml.XmlRoutines import XmlList
-from Library.Xml.XmlRoutines import CreateXmlElement
+from edk2basetools.Library.StringUtils import ConvertNEToNOTEQ
+from edk2basetools.Library.StringUtils import ConvertNOTEQToNE
+from edk2basetools.Library.StringUtils import GetStringOfList
+from edk2basetools.Library.Xml.XmlRoutines import XmlElement
+from edk2basetools.Library.Xml.XmlRoutines import XmlAttribute
+from edk2basetools.Library.Xml.XmlRoutines import XmlNode
+from edk2basetools.Library.Xml.XmlRoutines import XmlList
+from edk2basetools.Library.Xml.XmlRoutines import CreateXmlElement
 
 from Object.POM.CommonObject import GuidObject
 from Object.POM.CommonObject import ProtocolObject

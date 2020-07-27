@@ -16,41 +16,41 @@ from re import compile, DOTALL
 from string import hexdigits
 from uuid import UUID
 
-from Common.BuildToolError import *
-from Common import EdkLogger
-from Common.Misc import PathClass, tdict, ProcessDuplicatedInf, GuidStructureStringToGuidString
-from Common.StringUtils import NormPath, ReplaceMacro
-from Common import GlobalData
-from Common.Expression import *
-from Common.DataType import *
-from Common.MultipleWorkspace import MultipleWorkspace as mws
-import Common.LongFilePathOs as os
-from Common.LongFilePathSupport import OpenLongFilePath as open
-from Common.RangeExpression import RangeExpression
+from edk2basetools.Common.BuildToolError import *
+from edk2basetools.Common import EdkLogger
+from edk2basetools.Common.Misc import PathClass, tdict, ProcessDuplicatedInf, GuidStructureStringToGuidString
+from edk2basetools.Common.StringUtils import NormPath, ReplaceMacro
+from edk2basetools.Common import GlobalData
+from edk2basetools.Common.Expression import *
+from edk2basetools.Common.DataType import *
+from edk2basetools.Common.MultipleWorkspace import MultipleWorkspace as mws
+import edk2basetools.Common.LongFilePathOs as os
+from edk2basetools.Common.LongFilePathSupport import OpenLongFilePath as open
+from edk2basetools.Common.RangeExpression import RangeExpression
 from collections import OrderedDict
 
-from .Fd import FD
-from .Region import Region
-from .Fv import FV
-from .AprioriSection import AprioriSection
-from .FfsInfStatement import FfsInfStatement
-from .FfsFileStatement import FileStatement
-from .VerSection import VerSection
-from .UiSection import UiSection
-from .FvImageSection import FvImageSection
-from .DataSection import DataSection
-from .DepexSection import DepexSection
-from .CompressSection import CompressSection
-from .GuidSection import GuidSection
-from .Capsule import EFI_CERT_TYPE_PKCS7_GUID, EFI_CERT_TYPE_RSA2048_SHA256_GUID, Capsule
-from .CapsuleData import CapsuleFfs, CapsulePayload, CapsuleFv, CapsuleFd, CapsuleAnyFile, CapsuleAfile
-from .RuleComplexFile import RuleComplexFile
-from .RuleSimpleFile import RuleSimpleFile
-from .EfiSection import EfiSection
-from .OptionRom import OPTIONROM
-from .OptRomInfStatement import OptRomInfStatement, OverrideAttribs
-from .OptRomFileStatement import OptRomFileStatement
-from .GenFdsGlobalVariable import GenFdsGlobalVariable
+from edk2basetools.Fd import FD
+from edk2basetools.Region import Region
+from edk2basetools.Fv import FV
+from edk2basetools.AprioriSection import AprioriSection
+from edk2basetools.FfsInfStatement import FfsInfStatement
+from edk2basetools.FfsFileStatement import FileStatement
+from edk2basetools.VerSection import VerSection
+from edk2basetools.UiSection import UiSection
+from edk2basetools.FvImageSection import FvImageSection
+from edk2basetools.DataSection import DataSection
+from edk2basetools.DepexSection import DepexSection
+from edk2basetools.CompressSection import CompressSection
+from edk2basetools.GuidSection import GuidSection
+from edk2basetools.Capsule import EFI_CERT_TYPE_PKCS7_GUID, EFI_CERT_TYPE_RSA2048_SHA256_GUID, Capsule
+from edk2basetools.CapsuleData import CapsuleFfs, CapsulePayload, CapsuleFv, CapsuleFd, CapsuleAnyFile, CapsuleAfile
+from edk2basetools.RuleComplexFile import RuleComplexFile
+from edk2basetools.RuleSimpleFile import RuleSimpleFile
+from edk2basetools.EfiSection import EfiSection
+from edk2basetools.OptionRom import OPTIONROM
+from edk2basetools.OptRomInfStatement import OptRomInfStatement, OverrideAttribs
+from edk2basetools.OptRomFileStatement import OptRomFileStatement
+from edk2basetools.GenFdsGlobalVariable import GenFdsGlobalVariable
 
 T_CHAR_CR = '\r'
 T_CHAR_TAB = '\t'

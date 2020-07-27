@@ -11,10 +11,10 @@ Test Install multiple distribution package
 # #
 # Import Modules
 #
-from Library import GlobalData
-import Logger.Log as Logger
-from Logger import StringTable as ST
-import Logger.ToolError as TE
+from edk2basetools.Library import GlobalData
+import edk2basetools.Logger.Log as Logger
+from edk2basetools.Logger import StringTable as ST
+import edk2basetools.Logger.ToolError as TE
 from Core.DependencyRules import DependencyRules
 from InstallPkg import UnZipDp
 

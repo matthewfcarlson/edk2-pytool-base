@@ -10,15 +10,15 @@
 # Import Modules
 #
 from __future__ import absolute_import
-from . import RuleSimpleFile
-from . import RuleComplexFile
-from . import Section
-import Common.GlobalData as GlobalData
+from edk2basetools.GenFds import RuleSimpleFile
+from edk2basetools.GenFds import RuleComplexFile
+from edk2basetools.GenFds import Section
+import edk2basetools.Common.GlobalData as GlobalData
 
-from Common.DataType import *
-from Common.StringUtils import *
-from .FfsInfStatement import FfsInfStatement
-from .GenFdsGlobalVariable import GenFdsGlobalVariable
+from edk2basetools.Common.DataType import *
+from edk2basetools.Common.StringUtils import *
+from edk2basetools.FfsInfStatement import FfsInfStatement
+from edk2basetools.GenFdsGlobalVariable import GenFdsGlobalVariable
 
 ##
 #

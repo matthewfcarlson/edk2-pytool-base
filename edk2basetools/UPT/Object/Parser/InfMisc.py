@@ -10,12 +10,12 @@
 InfMisc
 '''
 
-import Logger.Log as Logger
-from Logger import ToolError
+import edk2basetools.Logger.Log as Logger
+from edk2basetools.Logger import ToolError
 
-from Library import DataType as DT
+from edk2basetools.Library import DataType as DT
 from Object.Parser.InfCommonObject import InfSectionCommonDef
-from Library.Misc import Sdict
+from edk2basetools.Library.Misc import Sdict
 
 ##
 # BootModeObject

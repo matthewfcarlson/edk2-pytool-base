@@ -12,15 +12,15 @@ InfLibrarySectionParser
 # Import Modules
 #
 
-import Logger.Log as Logger
-from Logger import StringTable as ST
-from Logger.ToolError import FORMAT_INVALID
+import edk2basetools.Logger.Log as Logger
+from edk2basetools.Logger import StringTable as ST
+from edk2basetools.Logger.ToolError import FORMAT_INVALID
 from Parser.InfParserMisc import InfExpandMacro
-from Library import DataType as DT
-from Library.Parsing import MacroParser
-from Library.Misc import GetSplitValueList
+from edk2basetools.Library import DataType as DT
+from edk2basetools.Library.Parsing import MacroParser
+from edk2basetools.Library.Misc import GetSplitValueList
 from Object.Parser.InfCommonObject import InfLineCommentObject
-from Library import GlobalData
+from edk2basetools.Library import GlobalData
 from Parser.InfParserMisc import IsLibInstanceInfo
 from Parser.InfAsBuiltProcess import GetLibInstanceInfo
 from Parser.InfParserMisc import InfParserSectionRoot

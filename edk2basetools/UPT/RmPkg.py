@@ -22,14 +22,14 @@ from sys import stdin
 from sys import platform
 
 from Core.DependencyRules import DependencyRules
-from Library import GlobalData
-from Logger import StringTable as ST
-import Logger.Log as Logger
-from Logger.ToolError import OPTION_MISSING
-from Logger.ToolError import UNKNOWN_ERROR
-from Logger.ToolError import ABORT_ERROR
-from Logger.ToolError import CODE_ERROR
-from Logger.ToolError import FatalError
+from edk2basetools.Library import GlobalData
+from edk2basetools.Logger import StringTable as ST
+import edk2basetools.Logger.Log as Logger
+from edk2basetools.Logger.ToolError import OPTION_MISSING
+from edk2basetools.Logger.ToolError import UNKNOWN_ERROR
+from edk2basetools.Logger.ToolError import ABORT_ERROR
+from edk2basetools.Logger.ToolError import CODE_ERROR
+from edk2basetools.Logger.ToolError import FatalError
 
 
 ## CheckDpDepex

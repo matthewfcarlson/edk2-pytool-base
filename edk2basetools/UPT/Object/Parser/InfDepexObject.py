@@ -10,14 +10,14 @@
 InfDepexObject
 '''
 
-from Library import DataType as DT
-from Library import GlobalData
-import Logger.Log as Logger
-from Logger import ToolError
-from Logger import StringTable as ST
+from edk2basetools.Library import DataType as DT
+from edk2basetools.Library import GlobalData
+import edk2basetools.Logger.Log as Logger
+from edk2basetools.Logger import ToolError
+from edk2basetools.Logger import StringTable as ST
 
 from Object.Parser.InfCommonObject import InfSectionCommonDef
-from Library.ParserValidate import IsValidArch
+from edk2basetools.Library.ParserValidate import IsValidArch
 
 class InfDepexContentItem():
     def __init__(self):

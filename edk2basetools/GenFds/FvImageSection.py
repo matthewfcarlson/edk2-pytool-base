@@ -10,17 +10,17 @@
 # Import Modules
 #
 from __future__ import absolute_import
-from . import Section
+from edk2basetools.GenFds import Section
 from io import BytesIO
-from .Ffs import SectionSuffix
+from edk2basetools.Ffs import SectionSuffix
 import subprocess
-from .GenFdsGlobalVariable import GenFdsGlobalVariable
-import Common.LongFilePathOs as os
-from CommonDataClass.FdfClass import FvImageSectionClassObject
-from Common.MultipleWorkspace import MultipleWorkspace as mws
-from Common import EdkLogger
-from Common.BuildToolError import *
-from Common.DataType import *
+from edk2basetools.GenFdsGlobalVariable import GenFdsGlobalVariable
+import edk2basetools.Common.LongFilePathOs as os
+from edk2basetools.CommonDataClass.FdfClass import FvImageSectionClassObject
+from edk2basetools.Common.MultipleWorkspace import MultipleWorkspace as mws
+from edk2basetools.Common import EdkLogger
+from edk2basetools.Common.BuildToolError import *
+from edk2basetools.Common.DataType import *
 
 ## generate FV image section
 #

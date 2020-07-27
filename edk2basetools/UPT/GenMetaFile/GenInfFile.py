@@ -14,28 +14,28 @@ import stat
 import codecs
 from hashlib import md5
 from Core.FileHook import __FileHookOpen__
-from Library.StringUtils import GetSplitValueList
-from Library.Parsing import GenSection
-from Library.Parsing import GetWorkspacePackage
-from Library.Parsing import ConvertArchForInstall
-from Library.Misc import SaveFileOnChange
-from Library.Misc import IsAllModuleList
-from Library.Misc import Sdict
-from Library.Misc import ConvertPath
-from Library.Misc import ConvertSpec
-from Library.Misc import GetRelativePath
-from Library.Misc import GetLocalValue
-from Library.CommentGenerating import GenHeaderCommentSection
-from Library.CommentGenerating import GenGenericCommentF
-from Library.CommentGenerating import _GetHelpStr
-from Library import GlobalData
-from Logger import StringTable as ST
-from Logger import ToolError
-import Logger.Log as Logger
-from Library import DataType as DT
+from edk2basetools.Library.StringUtils import GetSplitValueList
+from edk2basetools.Library.Parsing import GenSection
+from edk2basetools.Library.Parsing import GetWorkspacePackage
+from edk2basetools.Library.Parsing import ConvertArchForInstall
+from edk2basetools.Library.Misc import SaveFileOnChange
+from edk2basetools.Library.Misc import IsAllModuleList
+from edk2basetools.Library.Misc import Sdict
+from edk2basetools.Library.Misc import ConvertPath
+from edk2basetools.Library.Misc import ConvertSpec
+from edk2basetools.Library.Misc import GetRelativePath
+from edk2basetools.Library.Misc import GetLocalValue
+from edk2basetools.Library.CommentGenerating import GenHeaderCommentSection
+from edk2basetools.Library.CommentGenerating import GenGenericCommentF
+from edk2basetools.Library.CommentGenerating import _GetHelpStr
+from edk2basetools.Library import GlobalData
+from edk2basetools.Logger import StringTable as ST
+from edk2basetools.Logger import ToolError
+import edk2basetools.Logger.Log as Logger
+from edk2basetools.Library import DataType as DT
 from GenMetaFile import GenMetaFileMisc
-from Library.UniClassObject import FormatUniEntry
-from Library.StringUtils import GetUniFileName
+from edk2basetools.Library.UniClassObject import FormatUniEntry
+from edk2basetools.Library.StringUtils import GetUniFileName
 
 
 ## Transfer Module Object to Inf files

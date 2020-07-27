@@ -7,7 +7,7 @@
 
 import os
 import unittest
-from Logger.Log import FatalError
+from edk2basetools.Logger.Log import FatalError
 
 from Parser.DecParser import \
     Dec, \

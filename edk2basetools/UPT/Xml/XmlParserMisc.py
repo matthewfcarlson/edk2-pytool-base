@@ -10,9 +10,9 @@
 XmlParserMisc
 '''
 from Object.POM.CommonObject import TextObject
-from Logger.StringTable import ERR_XML_PARSER_REQUIRED_ITEM_MISSING
-from Logger.ToolError import PARSER_ERROR
-import Logger.Log as Logger
+from edk2basetools.Logger.StringTable import ERR_XML_PARSER_REQUIRED_ITEM_MISSING
+from edk2basetools.Logger.ToolError import PARSER_ERROR
+import edk2basetools.Logger.Log as Logger
 
 ## ConvertVariableName()
 # Convert VariableName to be L"string",

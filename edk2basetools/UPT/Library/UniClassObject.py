@@ -15,14 +15,14 @@ from __future__ import print_function
 #
 import os, codecs, re
 import distutils.util
-from Logger import ToolError
-from Logger import Log as EdkLogger
-from Logger import StringTable as ST
-from Library.StringUtils import GetLineNo
-from Library.Misc import PathClass
-from Library.Misc import GetCharIndexOutStr
-from Library import DataType as DT
-from Library.ParserValidate import CheckUTF16FileHeader
+from edk2basetools.Logger import ToolError
+from edk2basetools.Logger import Log as EdkLogger
+from edk2basetools.Logger import StringTable as ST
+from edk2basetools.Library.StringUtils import GetLineNo
+from edk2basetools.Library.Misc import PathClass
+from edk2basetools.Library.Misc import GetCharIndexOutStr
+from edk2basetools.Library import DataType as DT
+from edk2basetools.Library.ParserValidate import CheckUTF16FileHeader
 
 ##
 # Static definitions

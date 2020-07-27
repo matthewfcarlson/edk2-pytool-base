@@ -12,17 +12,17 @@ InfSourcesObject
 
 import os
 
-from Logger import StringTable as ST
-from Logger import ToolError
-import Logger.Log as Logger
-from Library import GlobalData
+from edk2basetools.Logger import StringTable as ST
+from edk2basetools.Logger import ToolError
+import edk2basetools.Logger.Log as Logger
+from edk2basetools.Library import GlobalData
 
-from Library.Misc import Sdict
-from Library.ExpressionValidate import IsValidFeatureFlagExp
+from edk2basetools.Library.Misc import Sdict
+from edk2basetools.Library.ExpressionValidate import IsValidFeatureFlagExp
 from Object.Parser.InfCommonObject import InfSectionCommonDef
-from Library.Misc import ValidFile
-from Library.ParserValidate import IsValidFamily
-from Library.ParserValidate import IsValidPath
+from edk2basetools.Library.Misc import ValidFile
+from edk2basetools.Library.ParserValidate import IsValidFamily
+from edk2basetools.Library.ParserValidate import IsValidPath
 
 ## __GenSourceInstance
 #

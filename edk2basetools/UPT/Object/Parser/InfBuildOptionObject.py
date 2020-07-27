@@ -10,7 +10,7 @@
 InfBuildOptionObject
 '''
 
-from Library import GlobalData
+from edk2basetools.Library import GlobalData
 
 from Object.Parser.InfCommonObject import InfSectionCommonDef
 

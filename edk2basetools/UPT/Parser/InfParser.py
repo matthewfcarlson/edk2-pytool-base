@@ -17,21 +17,21 @@ import re
 import os
 from copy import deepcopy
 
-from Library.StringUtils import GetSplitValueList
-from Library.StringUtils import ConvertSpecialChar
-from Library.Misc import ProcessLineExtender
-from Library.Misc import ProcessEdkComment
-from Library.Parsing import NormPath
-from Library.ParserValidate import IsValidInfMoudleTypeList
-from Library.ParserValidate import IsValidArch
-from Library import DataType as DT
-from Library import GlobalData
+from edk2basetools.Library.StringUtils import GetSplitValueList
+from edk2basetools.Library.StringUtils import ConvertSpecialChar
+from edk2basetools.Library.Misc import ProcessLineExtender
+from edk2basetools.Library.Misc import ProcessEdkComment
+from edk2basetools.Library.Parsing import NormPath
+from edk2basetools.Library.ParserValidate import IsValidInfMoudleTypeList
+from edk2basetools.Library.ParserValidate import IsValidArch
+from edk2basetools.Library import DataType as DT
+from edk2basetools.Library import GlobalData
 
-import Logger.Log as Logger
-from Logger import StringTable as ST
-from Logger.ToolError import FORMAT_INVALID
-from Logger.ToolError import FILE_READ_FAILURE
-from Logger.ToolError import PARSER_ERROR
+import edk2basetools.Logger.Log as Logger
+from edk2basetools.Logger import StringTable as ST
+from edk2basetools.Logger.ToolError import FORMAT_INVALID
+from edk2basetools.Logger.ToolError import FILE_READ_FAILURE
+from edk2basetools.Logger.ToolError import PARSER_ERROR
 
 from Object.Parser.InfCommonObject import InfSectionCommonDef
 from Parser.InfSectionParser import InfSectionParser

@@ -12,22 +12,22 @@ InfPcdObject
 import os
 import re
 
-from Logger import StringTable as ST
-from Logger import ToolError
-import Logger.Log as Logger
-from Library import GlobalData
-from Library import DataType as DT
+from edk2basetools.Logger import StringTable as ST
+from edk2basetools.Logger import ToolError
+import edk2basetools.Logger.Log as Logger
+from edk2basetools.Library import GlobalData
+from edk2basetools.Library import DataType as DT
 
-from Library.Misc import Sdict
-from Library.Misc import GetHelpStringByRemoveHashKey
-from Library.ParserValidate import IsValidPcdType
-from Library.ParserValidate import IsValidCVariableName
-from Library.ParserValidate import IsValidPcdValue
-from Library.ParserValidate import IsValidArch
-from Library.CommentParsing import ParseComment
-from Library.StringUtils import GetSplitValueList
-from Library.StringUtils import IsHexDigitUINT32
-from Library.ExpressionValidate import IsValidFeatureFlagExp
+from edk2basetools.Library.Misc import Sdict
+from edk2basetools.Library.Misc import GetHelpStringByRemoveHashKey
+from edk2basetools.Library.ParserValidate import IsValidPcdType
+from edk2basetools.Library.ParserValidate import IsValidCVariableName
+from edk2basetools.Library.ParserValidate import IsValidPcdValue
+from edk2basetools.Library.ParserValidate import IsValidArch
+from edk2basetools.Library.CommentParsing import ParseComment
+from edk2basetools.Library.StringUtils import GetSplitValueList
+from edk2basetools.Library.StringUtils import IsHexDigitUINT32
+from edk2basetools.Library.ExpressionValidate import IsValidFeatureFlagExp
 from Parser.InfAsBuiltProcess import GetPackageListInfo
 from Parser.DecParser import Dec
 

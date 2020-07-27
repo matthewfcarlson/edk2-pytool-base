@@ -9,9 +9,9 @@
 # Import Modules
 #
 from __future__ import absolute_import
-import Common.EdkLogger as EdkLogger
+import edk2basetools.Common.EdkLogger as EdkLogger
 from Table.Table import Table
-from Common.StringUtils import ConvertToSqlString
+from edk2basetools.Common.StringUtils import ConvertToSqlString
 
 ## TableFunction
 #
